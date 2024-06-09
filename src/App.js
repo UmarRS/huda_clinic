@@ -9,17 +9,27 @@ import Volunteers from "About_Us/volunteers";
 import Partners from "About_Us/partners";
 import Home from "Home/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ContactUs from "About_Us/contactUs";
+import Newsletter from "Newsletter/Newsletter";
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/healthservices" element={<HealthServices />} />
-        <Route path="/donate" element={<Donate />} />
+        {/* ABOUT */}
+        <Route path="/contactus" element={<ContactUs />} />
         <Route path="/ourstory" element={<OurStory />} />
-        <Route path="/volunteers" element={<Volunteers />} />
         <Route path="/partners" element={<Partners />} />
+        <Route path="/volunteers" element={<Volunteers />} />
+        {/* HEALTH SERVICES */}
+        <Route path="/healthservices" element={<HealthServices />} />
+        {/* DONATE */}
+        <Route path="/donate" element={<Donate />} />
+        {/* NEWSLETTER */}
+        <Route path="/newsletter" element={<Newsletter />} />
+        {/* PATIENT PORTAL */}
+        {/* WILL DO LATER */}
       </Routes>
     </div>
   );
