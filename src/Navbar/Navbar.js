@@ -8,7 +8,7 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 import { Link } from "react-router-dom";
-import { ChevronDownIcon, ChevronDown } from "lucide-react";
+import { ChevronDownIcon, ChevronDown, ChevronRightIcon } from "lucide-react";
 import HUDA_LOGO from "../logo.png";
 import {
   DropdownMenu,
@@ -21,7 +21,9 @@ import {
   SheetClose,
   SheetContent,
   SheetFooter,
+  SheetHeader,
   SheetOverlay,
+  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { MenuIcon } from "lucide-react";
@@ -30,7 +32,7 @@ import { CircleUser } from "lucide-react";
 
 function NavigationButtons() {
   return (
-    <header className="w-full bg-white  dark:bg-gray-900 mt-5">
+    <header className="w-full bg-white dark:bg-gray-900 mt-5">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6 mb-5">
         <div className="flex items-center space-x-4 gap-10">
           <Link to="/" className="flex items-center space-x-4" prefetch={false}>
@@ -43,25 +45,23 @@ function NavigationButtons() {
                 <div className="flex flex-col items-start">
                   <span>About</span>
                   <span>Huda Clinic</span>
-                  {/* Initially hidden, appears on hover */}
                   <Separator className="hidden group-hover:block bg-gray-200 group-hover:bg-blue-600 h-px" />
                 </div>
-                <ChevronDownIcon className="self-end mt-auto " />
+                <ChevronDownIcon className="self-end mt-auto" />
               </DropdownMenuTrigger>
-
               <DropdownMenuContent>
                 <DropdownMenuItem>
-                  <Link href="#" prefetch={false}>
+                  <Link to="/ourstory" prefetch={false}>
                     Our History
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <Link href="#" prefetch={false}>
+                  <Link to="/volunteers" prefetch={false}>
                     Our Team
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <Link href="#" prefetch={false}>
+                  <Link to="/ourmission" prefetch={false}>
                     Our Mission
                   </Link>
                 </DropdownMenuItem>
@@ -105,15 +105,14 @@ function NavigationButtons() {
         <div className="hidden items-center space-x-4 md:flex">
           <Link
             href="#"
-            className="text-gray-900  flex-grow hover:text-blue-600 relative group"
+            className="text-gray-900 flex-grow hover:text-blue-600 relative group"
             prefetch={false}
           >
             Patient Portal
           </Link>
-
           <Link
             href="#"
-            className="inline-flex h-9 items-center  flex-grow hover:text-blue-600 relative group"
+            className="inline-flex h-9 items-center flex-grow hover:text-blue-600 relative group"
             prefetch={false}
           >
             <CircleUser className="mr-1" />
@@ -121,56 +120,78 @@ function NavigationButtons() {
           </Link>
         </div>
         <div className="md:hidden">
-          <Sheet>
+          <Sheet className="text-left justify-left w-full h-[calc(100vh-4rem)]">
             <SheetTrigger asChild>
               <Button variant="outline" size="icon" className="rounded-xl">
                 <MenuIcon className="h-6 w-6 text-gray-900 dark:text-gray-50 rounded-xl" />
                 <span className="sr-only">Toggle navigation menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="right">
-              <div className="grid gap-4 p-4">
-                <DropdownMenu>
-                  <DropdownMenuTrigger className="flex items-center gap-1 text-gray-900 hover:text-gray-700 dark:text-gray-50 dark:hover:text-gray-300">
-                    About Huda Clinic
-                    <ChevronDownIcon className="h-4 w-4" />
-                  </DropdownMenuTrigger>
-                  <DropdownMenuContent>
-                    <DropdownMenuItem>
-                      <Link to="/ourstory" prefetch={false}>
-                        Our Story
-                      </Link>
-                    </DropdownMenuItem>
-                    <DropdownMenuItem>
-                      <Link to="/" prefetch={false}>
-                        Our Team
-                      </Link>
-                    </DropdownMenuItem>
-                    <DropdownMenuItem>
-                      <Link to="/" prefetch={false}>
-                        Our Mission
-                      </Link>
-                    </DropdownMenuItem>
-                  </DropdownMenuContent>
-                </DropdownMenu>
+            <SheetContent side="top" className="bg-white h-[100vh]">
+              <div className="grid p-4">
+                <Sheet>
+                  <SheetTrigger asChild>
+                    <Button className="flex items-center text-2xl	 justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out">
+                      About Huda Clinic
+                      <ChevronRightIcon className="h-4 w-4" />
+                    </Button>
+                  </SheetTrigger>
+                  <SheetContent side="right" className="bg-white">
+                    <SheetHeader>
+                      <SheetTitle className="text-left text-2xl	">
+                        About Huda Clinic
+                      </SheetTitle>
+                    </SheetHeader>
+                    <div className="grid gap-4 py-4">
+                      <SheetClose asChild>
+                        <Link
+                          to="/ourstory"
+                          className="block text-2xl	 px-4 py-2 text-sm text-left hover:bg-blue-100"
+                        >
+                          Our Story
+                        </Link>
+                      </SheetClose>
+                      <SheetClose asChild>
+                        <Link
+                          to="/"
+                          className="block text-2xl	 px-4 py-2 text-sm text-left hover:bg-blue-100"
+                        >
+                          Our Team
+                        </Link>
+                      </SheetClose>
+                      <SheetClose asChild>
+                        <Link
+                          to="/"
+                          className="block text-2xl	 px-4 py-2 text-sm text-left hover:bg-blue-100"
+                        >
+                          Our Mission
+                        </Link>
+                      </SheetClose>
+                    </div>
+                  </SheetContent>
+                </Sheet>
                 <Link
                   to="/healthservices"
-                  className="text-gray-900 hover:text-gray-700 dark:text-gray-50 dark:hover:text-gray-300"
+                  className="text-black text-2xl	 text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
                   prefetch={false}
                 >
                   <SheetClose asChild>
                     <Button
-                      className="bg-transparent text-black "
+                      className="bg-white text-2xl	text-2xl	 text-black w-full text-left justify-start hover:bg-blue-100"
                       type="submit"
                     >
                       Our Services
                     </Button>
                   </SheetClose>
                 </Link>
-                <Link to="/donate" prefetch={false}>
+                <Link
+                  to="/donate"
+                  className="text-black text-left justify-start hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
+                  prefetch={false}
+                >
                   <SheetClose asChild>
                     <Button
-                      className="bg-transparent text-black "
+                      className="bg-white text-2xl	 text-black justify-start w-full text-left hover:bg-blue-100"
                       type="submit"
                     >
                       Give to Clinic
@@ -179,21 +200,28 @@ function NavigationButtons() {
                 </Link>
                 <Link
                   to="/newsletter"
-                  className="text-gray-900 hover:text-gray-700 dark:text-gray-50 dark:hover:text-gray-300"
+                  className="text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
                   prefetch={false}
                 >
                   <SheetClose asChild>
                     <Button
-                      className="bg-transparent text-black "
+                      className="bg-white text-2xl	 text-black justify-start w-full text-left hover:bg-blue-100"
                       type="submit"
                     >
                       Join Our Newsletter
                     </Button>
                   </SheetClose>
                 </Link>
-                <Link href="#" prefetch={false}>
+                <Link
+                  href="#"
+                  className="text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
+                  prefetch={false}
+                >
                   <SheetClose asChild>
-                    <Button className="bg-white text-black " type="submit">
+                    <Button
+                      className="bg-white text-2xl	 text-black w-full text-left hover:bg-blue-100 justify-start"
+                      type="submit"
+                    >
                       Patient Portal
                     </Button>
                   </SheetClose>
