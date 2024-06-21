@@ -11,6 +11,7 @@ import Home from "Home/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ContactUs from "About_Us/contactUs";
 import Newsletter from "Newsletter/Newsletter";
+import OurMission from "About_Us/ourMission";
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,8 @@ function App() {
         {/* ABOUT */}
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/ourstory" element={<OurStory />} />
+        <Route path="/ourmission" element={<OurMission />} />
+
         <Route path="/partners" element={<Partners />} />
         <Route path="/volunteers" element={<Volunteers />} />
         {/* HEALTH SERVICES */}
