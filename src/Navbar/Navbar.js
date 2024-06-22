@@ -113,7 +113,7 @@ function NavigationButtons() {
             Patient Portal
           </a>
           <Link
-            href="#"
+            to="/newpatient"
             className="inline-flex h-9 items-center flex-grow hover:text-blue-600 relative group"
             prefetch={false}
           >
