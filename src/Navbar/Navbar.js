@@ -122,8 +122,8 @@ function NavigationButtons() {
           </Link>
         </div>
         {/* for small screens */}
-        <div className="md:hidden">
-          <Sheet className="text-left justify-left w-full h-[calc(100vh-4rem)]">
+        <div className="md:hidden ">
+          <Sheet className="text-left justify-left w-full h-[calc(100vh-4rem)] ">
             <SheetTrigger asChild>
               <Button variant="outline" size="icon" className="rounded-xl">
                 <MenuIcon className="h-6 w-6 text-gray-900 dark:text-gray-50 rounded-xl" />
@@ -131,48 +131,35 @@ function NavigationButtons() {
               </Button>
             </SheetTrigger>
             <SheetContent side="top" className="bg-white h-[100vh]">
-              <div className="grid p-4">
-                <Sheet>
-                  <SheetTrigger asChild>
-                    <Button className="flex items-center text-2xl	 justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out">
-                      About Huda Clinic
-                      <ChevronRightIcon className="h-4 w-4" />
-                    </Button>
-                  </SheetTrigger>
-                  <SheetContent side="right" className="bg-white">
-                    <SheetHeader>
-                      <SheetTitle className="text-left text-2xl	">
-                        About Huda Clinic
-                      </SheetTitle>
-                    </SheetHeader>
-                    <div className="grid gap-4 py-4">
-                      <SheetClose asChild>
-                        <Link
-                          to="/ourstory"
-                          className="block text-2xl	 px-4 py-2 text-sm text-left hover:bg-blue-100"
-                        >
-                          Our Story
-                        </Link>
-                      </SheetClose>
-                      <SheetClose asChild>
-                        <Link
-                          to="/"
-                          className="block text-2xl	 px-4 py-2 text-sm text-left hover:bg-blue-100"
-                        >
-                          Our Team
-                        </Link>
-                      </SheetClose>
-                      <SheetClose asChild>
-                        <Link
-                          to="/"
-                          className="block text-2xl	 px-4 py-2 text-sm text-left hover:bg-blue-100"
-                        >
-                          Our Mission
-                        </Link>
-                      </SheetClose>
-                    </div>
-                  </SheetContent>
-                </Sheet>
+              <div className="grid p-4 ">
+                <Button className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out">
+                  About Huda Clinic
+                  <ChevronRightIcon className="h-4 w-4" />
+                </Button>
+                <SheetClose asChild>
+                  <Link
+                    to="/ourstory"
+                    className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
+                  >
+                    Our Story
+                  </Link>
+                </SheetClose>
+                <SheetClose asChild>
+                  <Link
+                    to="/"
+                    className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
+                  >
+                    Our Team
+                  </Link>
+                </SheetClose>
+                <SheetClose asChild>
+                  <Link
+                    to="/"
+                    className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
+                  >
+                    Our Mission
+                  </Link>
+                </SheetClose>
                 <Link
                   to="/healthservices"
                   className="text-black text-2xl	 text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
