@@ -15,6 +15,8 @@ import ContactUs from "About_Us/contactUs";
 import Newsletter from "Newsletter/Newsletter";
 import OurMission from "About_Us/ourMission";
 
+import NewPatient from "Patient/NewPatient";
+
 function App() {
   return (
     <div className="App">
@@ -35,6 +37,8 @@ function App() {
         {/* NEWSLETTER */}
         <Route path="/newsletter" element={<Newsletter />} />
         {/* PATIENT PORTAL */}
+        <Route path="/newpatient" element={<NewPatient />} />
+
         {/* WILL DO LATER */}
       </Routes>
       <Footer />
