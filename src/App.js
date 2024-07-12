@@ -1,6 +1,8 @@
-import logo from "./logo.svg";
+import Logo from "./logo.svg";
+import Footer from "Footer/Footer";
 import "./App.css";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom"; // Updated import for Link
 import Navbar from "Navbar/Navbar";
 import HealthServices from "Health_Services/healthServices";
 import Donate from "Donate/donate";
@@ -12,7 +14,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ContactUs from "About_Us/contactUs";
 import Newsletter from "Newsletter/Newsletter";
 import OurMission from "About_Us/ourMission";
+
 import NewPatient from "Patient/NewPatient";
+
 function App() {
   return (
     <div className="App">
@@ -37,6 +41,7 @@ function App() {
 
         {/* WILL DO LATER */}
       </Routes>
+      <Footer />
     </div>
   );
 }
