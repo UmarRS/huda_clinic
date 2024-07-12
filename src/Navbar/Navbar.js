@@ -29,6 +29,7 @@ import {
 import { MenuIcon } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { CircleUser } from "lucide-react";
+import { MoveRight } from "lucide-react";
 
 function NavigationButtons() {
   return (
@@ -103,15 +104,16 @@ function NavigationButtons() {
           </div>
         </div>
         <div className="hidden items-center space-x-4 md:flex">
-          <Link
-            href="#"
+          <a
+            href="https://myidentity.platform.athenahealth.com/oauth2/auset0ja9xZ2Hniep296/v1/authorize?client_id=0oa5jhhy36lw4YE6S297&code_challenge=73_ufOHvXzZpHSjCP2l8iqfMYO0x8SAogE2TBe6FZgo&code_challenge_method=S256&nonce=JoQ1tNE3NstCrsOY7zGCF2PcuvcyjJQzgCdTKOg0pqLuUTFtQ3glXOcG9idrySEZ&redirect_uri=https%3A%2F%2Fpxppapp.px.athena.io%2Flogin&response_type=code&state=t6SZvaYCIeYZco1d3LnRFkDqz7eG8TziAunvSMUIb2X7zoGukj3jsAowauJjQlk2&scope=openid%20email%20communicator.external_accounts.read"
+            target="_blank"
             className="text-gray-900 flex-grow hover:text-blue-600 relative group"
             prefetch={false}
           >
             Patient Portal
-          </Link>
+          </a>
           <Link
-            href="#"
+            to="/newpatient"
             className="inline-flex h-9 items-center flex-grow hover:text-blue-600 relative group"
             prefetch={false}
           >
@@ -119,8 +121,9 @@ function NavigationButtons() {
             New Patients
           </Link>
         </div>
-        <div className="md:hidden">
-          <Sheet className="text-left justify-left w-full h-[calc(100vh-4rem)]">
+        {/* for small screens */}
+        <div className="md:hidden ">
+          <Sheet className="text-left justify-left w-full h-[calc(100vh-4rem)] ">
             <SheetTrigger asChild>
               <Button variant="outline" size="icon" className="rounded-xl">
                 <MenuIcon className="h-6 w-6 text-gray-900 dark:text-gray-50 rounded-xl" />
@@ -128,48 +131,35 @@ function NavigationButtons() {
               </Button>
             </SheetTrigger>
             <SheetContent side="top" className="bg-white h-[100vh]">
-              <div className="grid p-4">
-                <Sheet>
-                  <SheetTrigger asChild>
-                    <Button className="flex items-center text-2xl	 justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out">
-                      About Huda Clinic
-                      <ChevronRightIcon className="h-4 w-4" />
-                    </Button>
-                  </SheetTrigger>
-                  <SheetContent side="right" className="bg-white">
-                    <SheetHeader>
-                      <SheetTitle className="text-left text-2xl	">
-                        About Huda Clinic
-                      </SheetTitle>
-                    </SheetHeader>
-                    <div className="grid gap-4 py-4">
-                      <SheetClose asChild>
-                        <Link
-                          to="/ourstory"
-                          className="block text-2xl	 px-4 py-2 text-sm text-left hover:bg-blue-100"
-                        >
-                          Our Story
-                        </Link>
-                      </SheetClose>
-                      <SheetClose asChild>
-                        <Link
-                          to="/"
-                          className="block text-2xl	 px-4 py-2 text-sm text-left hover:bg-blue-100"
-                        >
-                          Our Team
-                        </Link>
-                      </SheetClose>
-                      <SheetClose asChild>
-                        <Link
-                          to="/"
-                          className="block text-2xl	 px-4 py-2 text-sm text-left hover:bg-blue-100"
-                        >
-                          Our Mission
-                        </Link>
-                      </SheetClose>
-                    </div>
-                  </SheetContent>
-                </Sheet>
+              <div className="grid p-4 ">
+                <Button className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out">
+                  About Huda Clinic
+                  <ChevronRightIcon className="h-4 w-4" />
+                </Button>
+                <SheetClose asChild>
+                  <Link
+                    to="/ourstory"
+                    className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
+                  >
+                    Our Story
+                  </Link>
+                </SheetClose>
+                <SheetClose asChild>
+                  <Link
+                    to="/"
+                    className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
+                  >
+                    Our Team
+                  </Link>
+                </SheetClose>
+                <SheetClose asChild>
+                  <Link
+                    to="/"
+                    className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
+                  >
+                    Our Mission
+                  </Link>
+                </SheetClose>
                 <Link
                   to="/healthservices"
                   className="text-black text-2xl	 text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
@@ -212,20 +202,32 @@ function NavigationButtons() {
                     </Button>
                   </SheetClose>
                 </Link>
-                <Link
-                  href="#"
-                  className="text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
-                  prefetch={false}
-                >
-                  <SheetClose asChild>
+
+                <SheetClose asChild>
+                  <Button
+                    href="https://myidentity.platform.athenahealth.com/oauth2/auset0ja9xZ2Hniep296/v1/authorize?client_id=0oa5jhhy36lw4YE6S297&code_challenge=73_ufOHvXzZpHSjCP2l8iqfMYO0x8SAogE2TBe6FZgo&code_challenge_method=S256&nonce=JoQ1tNE3NstCrsOY7zGCF2PcuvcyjJQzgCdTKOg0pqLuUTFtQ3glXOcG9idrySEZ&redirect_uri=https%3A%2F%2Fpxppapp.px.athena.io%2Flogin&response_type=code&state=t6SZvaYCIeYZco1d3LnRFkDqz7eG8TziAunvSMUIb2X7zoGukj3jsAowauJjQlk2&scope=openid%20email%20communicator.external_accounts.read"
+                    target="_blank"
+                    className="bg-white text-2xl	 text-black w-full text-left hover:bg-blue-100 justify-start"
+                    type="submit"
+                  >
+                    Patient Portal
+                    <MoveRight className="ml-2" />
+                  </Button>
+                </SheetClose>
+                <SheetClose>
+                  <div className="bg-white text-2xl	 text-black w-full text-left hover:bg-blue-100 justify-start">
                     <Button
+                      // href="https://myidentity.platform.athenahealth.com/oauth2/auset0ja9xZ2Hniep296/v1/authorize?client_id=0oa5jhhy36lw4YE6S297&code_challenge=73_ufOHvXzZpHSjCP2l8iqfMYO0x8SAogE2TBe6FZgo&code_challenge_method=S256&nonce=JoQ1tNE3NstCrsOY7zGCF2PcuvcyjJQzgCdTKOg0pqLuUTFtQ3glXOcG9idrySEZ&redirect_uri=https%3A%2F%2Fpxppapp.px.athena.io%2Flogin&response_type=code&state=t6SZvaYCIeYZco1d3LnRFkDqz7eG8TziAunvSMUIb2X7zoGukj3jsAowauJjQlk2&scope=openid%20email%20communicator.external_accounts.read"
+                      target="_blank"
                       className="bg-white text-2xl	 text-black w-full text-left hover:bg-blue-100 justify-start"
                       type="submit"
                     >
-                      Patient Portal
+                      <CircleUser className="mr-1" />
+                      New Patients
+                      <MoveRight className="ml-2" />
                     </Button>
-                  </SheetClose>
-                </Link>
+                  </div>
+                </SheetClose>
               </div>
             </SheetContent>
           </Sheet>
