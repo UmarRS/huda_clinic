@@ -3,7 +3,7 @@ import { Link } from "../../node_modules/react-router-dom/dist/index";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col ">
       <meta
         name="keywords"
         content="Specialties: Walk In Clinic, Free Clinic, Community Health Center, Free Dental Care, Free Health Clinic, Free Dental Clinic, Community Clinic, Community Mental Health Center , Free Medical Clinic, Free Mental Health Services, No Insurance Clinic, Free Medication, Areas: Detroit MI, New Center, Tech Town, Hamtramck MI, Dearborn MI, Highland Park MI, Oak Park MI, Metro Detroit, Free Clinic Dearborn MI, Free Dental Care Hamtramck MI | Free Mental Health Services Metro Detroit"
@@ -20,15 +20,17 @@ export default function Footer() {
                 in the lives of people in Metro-Detroit. Donate today.
               </p>
             </div>
-            <Button className="mt-4 md:mt-0 rounded-full px-12 py-6 bg-orange-500 text-white transition duration-300 ease-in-out hover:scale-105 border-4 border-orange-300">
-              Donate
-            </Button>
+            <Link to="/donate">
+              <Button className="mt-4 md:mt-0 rounded-full px-12 py-6 bg-orange-500 text-white transition duration-300 ease-in-out hover:scale-105 border-4 border-orange-300">
+                Donate
+              </Button>
+            </Link>
           </div>
         </div>
         <div className="container mx-auto py-8 grid grid-cols-1 gap-4 md:flex md:justify-center md:items-center">
           <Link to="/">Home</Link>
           <Link to="/donate">Donate</Link>
-          <Link to="/volunteers">Volunteer</Link>
+          {/* <Link to="/volunteers">Volunteer</Link> */}
           <Link to="/contactus">Contact Us</Link>
         </div>
         <div className="container mx-auto py-8 flex flex-col items-center md:flex-row md:justify-center">

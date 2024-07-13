@@ -15,7 +15,7 @@ const ImageCard = ({ imageSrc, name }) => {
           <div className="font-semibold text-3xl mb-2">
             <span className="justify-left">{name}</span>
           </div>
-          <Link to="/our-services">
+          <Link to="/healthservices">
             <span className=" text-5xl hover:text-purple-500">&#8594;</span>
           </Link>
         </div>

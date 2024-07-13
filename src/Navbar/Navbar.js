@@ -57,7 +57,7 @@ function NavigationButtons() {
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <Link to="/volunteers" prefetch={false}>
+                  <Link to="/ourteam" prefetch={false}>
                     Our Team
                   </Link>
                 </DropdownMenuItem>
@@ -101,6 +101,17 @@ function NavigationButtons() {
                 <Separator className="hidden group-hover:block bg-gray-200 group-hover:bg-blue-600 h-px" />
               </div>
             </Link>
+            <Link
+              to="/contactus"
+              className="text-gray-900 flex-grow hover:text-blue-600 relative group"
+              prefetch={false}
+            >
+              <div className="flex flex-col items-start">
+                <span>Contact</span>
+                <span>Us</span>
+                <Separator className="hidden group-hover:block bg-gray-200 group-hover:bg-blue-600 h-px" />
+              </div>
+            </Link>
           </div>
         </div>
         <div className="hidden items-center space-x-4 md:flex">
@@ -132,32 +143,47 @@ function NavigationButtons() {
             </SheetTrigger>
             <SheetContent side="top" className="bg-white h-[100vh]">
               <div className="grid p-4 ">
-                <Button className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out">
-                  About Huda Clinic
+                {/* <Button className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out">
+                  About Huda Clinics
                   <ChevronRightIcon className="h-4 w-4" />
-                </Button>
+                </Button> */}
                 <SheetClose asChild>
                   <Link
                     to="/ourstory"
                     className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
                   >
-                    Our Story
+                    <Button
+                      className="bg-white text-2xl	text-2xl	 text-black w-full text-left justify-start hover:bg-blue-100"
+                      type="submit"
+                    >
+                      Our Story
+                    </Button>{" "}
                   </Link>
                 </SheetClose>
                 <SheetClose asChild>
                   <Link
-                    to="/"
+                    to="/ourteam"
                     className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
                   >
-                    Our Team
+                    <Button
+                      className="bg-white text-2xl	text-2xl	 text-black w-full text-left justify-start hover:bg-blue-100"
+                      type="submit"
+                    >
+                      Our Team
+                    </Button>
                   </Link>
                 </SheetClose>
                 <SheetClose asChild>
                   <Link
-                    to="/"
+                    to="/ourmission"
                     className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
                   >
-                    Our Mission
+                    <Button
+                      className="bg-white text-2xl	text-2xl	 text-black w-full text-left justify-start hover:bg-blue-100"
+                      type="submit"
+                    >
+                      Our Mission
+                    </Button>{" "}
                   </Link>
                 </SheetClose>
                 <Link

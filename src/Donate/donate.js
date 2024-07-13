@@ -1,31 +1,66 @@
+import { Button } from "@/components/ui/button";
 import React from "react";
-
+import HudaGarden from "./huda_garden_logo.jpg";
+import HudaBuilding from "./hudaBuilding.png";
+import header from "./header.jpg";
 const Donate = () => {
   return (
-    <div className="flex flex-col items-center bg-background px-4 py-12 md:py-24">
-      <div className="container max-w-3xl">
-        <div className="space-y-6 text-center">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Support Our Causes
-          </h1>
-          <p className="max-w-[700px] text-muted-foreground md:text-xl">
-            Your donation will help us continue our mission of making a positive
-            impact in our community. Every contribution counts.
+    <div className="flex min-h-[100dvh] flex-col bg-background">
+      <section
+        className="relative bg-cover bg-center bg-no-repeat py-16"
+        style={{ backgroundImage: `url(${header})` }}
+      >
+        <div className="container mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-4 text-white">Donate</h2>
+          <p className="text-lg text-white">
+            Support our mission by donating to the clinic or the urban garden
           </p>
-          <a
-            href="https://secure.lglforms.com/form_engine/s/jFcQsAieU-KIYVy9iypVTg"
-            className="inline-flex h-12 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 mb-4"
-          >
-            Donate to Our Clinic
-          </a>
-          <a
-            href="https://secure.lglforms.com/form_engine/s/1mlSVVsqK9ik2Fzy08kS8g"
-            className="inline-flex h-12 items-center justify-center rounded-md bg-blue px-8 text-sm font-medium text-white shadow transition-colors hover:bg-blue/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue disabled:pointer-events-none disabled:opacity-50"
-          >
-            Donate to Our Garden
-          </a>
         </div>
-      </div>
+      </section>
+      <main className="container mx-auto px-4 py-12 md:px-6 lg:py-20">
+        <div class="mt-12 grid gap-8 md:grid-cols-2 md:gap-12">
+          <div class="rounded-lg border bg-card p-6 shadow-sm transition-all duration-300 hover:scale-105 hover:bg-blue-100 cursor-pointer">
+            <a
+              href="https://secure.lglforms.com/form_engine/s/jFcQsAieU-KIYVy9iypVTg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={HudaGarden}
+                alt="Clinic"
+                class="mb-4 h-[200px] w-full rounded-md object-cover object-center"
+              />
+              <h2 class="text-2xl font-bold">Donate to the Clinic</h2>
+              <p class="mt-2 text-muted-foreground">
+                Your donation will help us provide high-quality medical care to
+                those in need.
+              </p>
+              <Button class="mt-4 py-2 px-4 rounded">Donate to Clinic</Button>
+            </a>
+          </div>
+          <div class="rounded-lg border bg-card p-6 shadow-sm transition-all duration-300 hover:scale-105 hover:bg-blue-100 cursor-pointer">
+            <a
+              href="https://secure.lglforms.com/form_engine/s/1mlSVVsqK9ik2Fzy08kS8g"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={HudaBuilding}
+                alt="Garden"
+                class="mb-4 h-[200px] w-full rounded-md object-cover object-center"
+              />
+              <h2 class="text-2xl font-bold">Donate to the Garden</h2>
+              <p class="mt-2 text-muted-foreground">
+                Your donation will help us maintain and expand our beautiful
+                community garden.
+              </p>
+              <Button class="mt-4  py-2 px-4 rounded-2xl">
+                Donate to Garden
+              </Button>
+            </a>
+          </div>
+        </div>
+      </main>
     </div>
   );
 };

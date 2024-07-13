@@ -1,3 +1,16 @@
+import {
+  ClockIcon,
+  FacebookIcon,
+  InstagramIcon,
+  LinkedinIcon,
+  MailIcon,
+  MapPinIcon,
+  PhoneIcon,
+  TwitterIcon,
+  VoicemailIcon,
+} from "lucide-react";
+import { Link } from "../../node_modules/react-router-dom/dist/index";
+import header from "./header.jpg";
 /**
  * v0 by Vercel.
  * @see https://v0.dev/t/eVYs5CdIada
@@ -5,215 +18,104 @@
  */
 export default function Component() {
   return (
-    <div className="container mx-auto p-8">
-      <div className="relative">
-        <img
-          src="/placeholder.svg"
-          alt="Banner"
-          width={1200}
-          height={400}
-          className="w-full h-[24rem] object-cover rounded-xl"
-        />
-        <div className="absolute inset-0 flex flex-col justify-center items-center space-y-8">
-          <h1 className="text-4xl font-bold mb-4 text-center text-white">About Huda Clinic</h1>
-          <p className="text-lg font-serif italic font-bold text-white">
-            Our mission is to provide the best healthcare services to our community.
-          </p>
+    <div>
+      <section
+        className="relative bg-cover bg-center bg-no-repeat py-16"
+        style={{ backgroundImage: `url(${header})` }}
+      >
+        <div className="container mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-4 text-white">Contact Us</h2>
+        </div>
+      </section>
+      <div className="container mx-auto py-12 md:py-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="bg-card rounded-lg p-6 shadow-md">
+            <div className="flex items-center space-x-4 mb-4">
+              <PhoneIcon className="w-6 h-6 text-primary" />
+              <h3 className="text-lg font-semibold">Phone</h3>
+            </div>
+            <p className="text-muted-foreground">+1 (313) 865-8446</p>
+          </div>
+          <div className="bg-card rounded-lg p-6 shadow-md">
+            <div className="flex items-center space-x-4 mb-4">
+              <MapPinIcon className="w-6 h-6 text-primary" />
+              <h3 className="text-lg font-semibold">Address</h3>
+            </div>
+            <p className="text-muted-foreground">
+              13240 Woodrow Wilson St.
+              <br />
+              Detroit, MI 48238
+            </p>
+          </div>
+          <div className="bg-card rounded-lg p-6 shadow-md">
+            <div className="flex items-center space-x-4 mb-4">
+              <ClockIcon className="w-6 h-6 text-primary" />
+              <h3 className="text-lg font-semibold">Hours</h3>
+            </div>
+            <p className="text-muted-foreground">
+              Tuesday: 8:30 AM – 2:00 PM (limited walk-in/appointments)
+              <br />
+              Wednesday: 9:00 AM – 12:00 PM (TELEMEDICINE ONLY)
+              <br />
+              Thursday: 8:30 AM – 2:00 PM (limited walk-in/appointments)
+              <br />
+              Saturday: 8:30 AM – 2:00 PM (limited walk-in/appointments)
+              <br />
+              Sunday: Closed
+            </p>
+          </div>
+          <div className="bg-card rounded-lg p-6 shadow-md">
+            <div className="flex items-center space-x-4 mb-4">
+              <MailIcon className="w-6 h-6 text-primary" />
+              <h3 className="text-lg font-semibold">Email</h3>
+            </div>
+            <p className="text-muted-foreground">info@hudaclinic.org</p>
+          </div>
+          <div className="bg-card rounded-lg p-6 shadow-md">
+            <div className="flex items-center space-x-4 mb-4">
+              <VoicemailIcon className="w-6 h-6 text-primary" />
+              <h3 className="text-lg font-semibold">Fax</h3>
+            </div>
+            <p className="text-muted-foreground">+1 (313) 865-8474 </p>
+          </div>
+          <div className="bg-card rounded-lg p-6 shadow-md">
+            <div className="flex items-center space-x-4 mb-4">
+              <h3 className="text-lg font-semibold">Socials</h3>
+            </div>
+            <div className="flex space-x-4">
+              <a
+                href="https://www.facebook.com/HudaClinic/"
+                target="_blank"
+                className="text-muted-foreground hover:text-primary"
+                prefetch={false}
+              >
+                <FacebookIcon className="w-6 h-6" />
+              </a>
+              <a
+                href="https://x.com/hudaclinic?lang=en"
+                className="text-muted-foreground hover:text-primary"
+                prefetch={false}
+              >
+                <TwitterIcon className="w-6 h-6" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/hudaclinic"
+                className="text-muted-foreground hover:text-primary"
+                prefetch={false}
+              >
+                <LinkedinIcon className="w-6 h-6" />
+              </a>
+              <a
+                href="https://www.instagram.com/hudaclinic/"
+                className="text-muted-foreground hover:text-primary"
+                prefetch={false}
+              >
+                <InstagramIcon className="w-6 h-6" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-      <section className="mt-12">
-        <h2 className="text-3xl font-semibold mb-8 text-center">Board Members and Executive Officers</h2>
-        <div className="grid grid-cols-3 gap-8">
-          <div className="flex flex-col items-center">
-            <img
-              src="/placeholder.svg"
-              width={200}
-              height={200}
-              alt="President"
-              className="w-full h-auto rounded-[10%] object-cover"
-            />
-            <p className="mt-2 font-bold text-green-600">President</p>
-            <p className="text-black">John Doe</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="/placeholder.svg"
-              width={200}
-              height={200}
-              alt="Board Member"
-              className="w-full h-auto rounded-[10%] object-cover"
-            />
-            <p className="mt-2 font-bold text-blue-600">Board Member</p>
-            <p className="text-black">Jane Smith</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="/placeholder.svg"
-              width={200}
-              height={200}
-              alt="Board Member"
-              className="w-full h-auto rounded-[10%] object-cover"
-            />
-            <p className="mt-2 font-bold text-blue-600">Board Member</p>
-            <p className="text-black">John Doe</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="/placeholder.svg"
-              width={200}
-              height={200}
-              alt="Board Member"
-              className="w-full h-auto rounded-[10%] object-cover"
-            />
-            <p className="mt-2 font-bold text-blue-600">Board Member</p>
-            <p className="text-black">Jane Smith</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="/placeholder.svg"
-              width={200}
-              height={200}
-              alt="Board Member"
-              className="w-full h-auto rounded-[10%] object-cover"
-            />
-            <p className="mt-2 font-bold text-blue-600">Board Member</p>
-            <p className="text-black">John Doe</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="/placeholder.svg"
-              width={200}
-              height={200}
-              alt="Board Member"
-              className="w-full h-auto rounded-[10%] object-cover"
-            />
-            <p className="mt-2 font-bold text-blue-600">Board Member</p>
-            <p className="text-black">Jane Smith</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="/placeholder.svg"
-              width={200}
-              height={200}
-              alt="Board Member"
-              className="w-full h-auto rounded-[10%] object-cover"
-            />
-            <p className="mt-2 font-bold text-blue-600">Board Member</p>
-            <p className="text-black">John Doe</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="/placeholder.svg"
-              width={200}
-              height={200}
-              alt="Board Member"
-              className="w-full h-auto rounded-[10%] object-cover"
-            />
-            <p className="mt-2 font-bold text-blue-600">Board Member</p>
-            <p className="text-black">Jane Smith</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="/placeholder.svg"
-              width={200}
-              height={200}
-              alt="Board Member"
-              className="w-full h-auto rounded-[10%] object-cover"
-            />
-            <p className="mt-2 font-bold text-blue-600">Board Member</p>
-            <p className="text-black">John Doe</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="/placeholder.svg"
-              width={200}
-              height={200}
-              alt="Board Member"
-              className="w-full h-auto rounded-[10%] object-cover"
-            />
-            <p className="mt-2 font-bold text-blue-600">Board Member</p>
-            <p className="text-black">Jane Smith</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="/placeholder.svg"
-              width={200}
-              height={200}
-              alt="Board Member"
-              className="w-full h-auto rounded-[10%] object-cover"
-            />
-            <p className="mt-2 font-bold text-blue-600">Board Member</p>
-            <p className="text-black">John Doe</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
-              src="/placeholder.svg"
-              width={200}
-              height={200}
-              alt="Board Member"
-              className="w-full h-auto rounded-[10%] object-cover"
-            />
-            <p className="mt-2 font-bold text-blue-600">Board Member</p>
-            <p className="text-black">Jane Smith</p>
-          </div>
-          <div className="flex flex-col items-center mx-auto">
-            <img
-              src="/placeholder.svg"
-              width={200}
-              height={200}
-              alt="Board Member"
-              className="w-full h-auto rounded-[10%] object-cover"
-            />
-            <p className="mt-2 font-bold text-blue-600">Board Member</p>
-            <p className="text-black">Alex Johnson</p>
-          </div>
-        </div>
-      </section>
-      <section className="mt-12">
-        <h2 className="text-3xl font-semibold mb-8 text-center">Previous Board Members</h2>
-        <div className="grid grid-cols-1 gap-4">
-          <div className="flex flex-col items-start gap-1">
-            <p className="text-lg font-bold text-black">Person1</p>
-            <p className="text-gray-500">2010-2011</p>
-          </div>
-          <div className="flex flex-col items-start gap-1">
-            <p className="text-lg font-bold text-black">Person2</p>
-            <p className="text-gray-500">2010-2011</p>
-          </div>
-          <div className="flex flex-col items-start gap-1">
-            <p className="text-lg font-bold text-black">Person3</p>
-            <p className="text-gray-500">2010-2011</p>
-          </div>
-          <div className="flex flex-col items-start gap-1">
-            <p className="text-lg font-bold text-black">Person4</p>
-            <p className="text-gray-500">2010-2011</p>
-          </div>
-          <div className="flex flex-col items-start gap-1">
-            <p className="text-lg font-bold text-black">Person5</p>
-            <p className="text-gray-500">2010-2011</p>
-          </div>
-          <div className="flex flex-col items-start gap-1">
-            <p className="text-lg font-bold text-black">Person6</p>
-            <p className="text-gray-500">2010-2011</p>
-          </div>
-          <div className="flex flex-col items-start gap-1">
-            <p className="text-lg font-bold text-black">Person7</p>
-            <p className="text-gray-500">2010-2011</p>
-          </div>
-          <div className="flex flex-col items-start gap-1">
-            <p className="text-lg font-bold text-black">Person8</p>
-            <p className="text-gray-500">2010-2011</p>
-          </div>
-          <div className="flex flex-col items-start gap-1">
-            <p className="text-lg font-bold text-black">Person9</p>
-            <p className="text-gray-500">2010-2011</p>
-          </div>
-          <div className="flex flex-col items-start gap-1">
-            <p className="text-lg font-bold text-black">Person10</p>
-            <p className="text-gray-500">2010-2011</p>
-          </div>
-        </div>
-      </section>
     </div>
-  )
+  );
 }

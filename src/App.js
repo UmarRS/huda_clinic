@@ -16,6 +16,7 @@ import Newsletter from "Newsletter/Newsletter";
 import OurMission from "About_Us/ourMission";
 
 import NewPatient from "Patient/NewPatient";
+import NotFound from "404_NotFound/NotFound";
 
 function App() {
   return (
@@ -28,8 +29,8 @@ function App() {
         <Route path="/ourstory" element={<OurStory />} />
         <Route path="/ourmission" element={<OurMission />} />
 
-        <Route path="/partners" element={<Partners />} />
-        <Route path="/volunteers" element={<Volunteers />} />
+        <Route path="/ourteam" element={<Partners />} />
+        {/* <Route path="/volunteers" element={<Volunteers />} /> */}
         {/* HEALTH SERVICES */}
         <Route path="/healthservices" element={<HealthServices />} />
         {/* DONATE */}
@@ -38,8 +39,8 @@ function App() {
         <Route path="/newsletter" element={<Newsletter />} />
         {/* PATIENT PORTAL */}
         <Route path="/newpatient" element={<NewPatient />} />
-
-        {/* WILL DO LATER */}
+        {/* Catch-all route for 404 Not Found */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>

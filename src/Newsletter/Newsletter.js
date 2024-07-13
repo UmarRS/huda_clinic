@@ -1,4 +1,5 @@
 import { useState } from "react";
+import header from "./header.jpg";
 
 const Newsletter = () => {
   const [showConfirmation, setShowConfirmation] = useState(false);
@@ -14,6 +15,20 @@ const Newsletter = () => {
 
   return (
     <div className="bg-background text-foreground rounded-xl ">
+      <section
+        className="relative bg-cover bg-center bg-no-repeat py-16"
+        style={{ backgroundImage: `url(${header})` }}
+      >
+        <div className="container mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-4 text-white">
+            Join Our Newsletter
+          </h2>
+          <p className="text-lg text-white">
+            Stay Informed. Get Updates on Our Free Medical Services, Community
+            Events, and Health Tips!{" "}
+          </p>
+        </div>
+      </section>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="flex items-center justify-center h-[85vh]">
           <iframe
