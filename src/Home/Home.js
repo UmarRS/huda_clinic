@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import ImageCard from "./components/ImageCard";
+import MotorCity from "./motorCity.jpeg";
 
 const Home = () => {
   const bannerStyle = {
-    backgroundImage: 'url("${process.env.PUBLIC_URL}/detroit-skyline.jpeg")',
+    backgroundImage: `url(${MotorCity})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
