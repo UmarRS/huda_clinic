@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/huda_clinic/static/css/main.68b6b5c8.css",
-    "main.js": "/huda_clinic/static/js/main.ee71bee7.js",
+    "main.js": "/huda_clinic/static/js/main.acb89983.js",
     "static/js/453.c675fa11.chunk.js": "/huda_clinic/static/js/453.c675fa11.chunk.js",
     "static/media/hudaBuilding.png": "/huda_clinic/static/media/hudaBuilding.cce091f007191c8fb62d.png",
     "static/media/motorCity.jpeg": "/huda_clinic/static/media/motorCity.b2b3df712937902625c5.jpeg",
@@ -68,11 +68,11 @@
     "static/media/logo.svg": "/huda_clinic/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/huda_clinic/index.html",
     "main.68b6b5c8.css.map": "/huda_clinic/static/css/main.68b6b5c8.css.map",
-    "main.ee71bee7.js.map": "/huda_clinic/static/js/main.ee71bee7.js.map",
+    "main.acb89983.js.map": "/huda_clinic/static/js/main.acb89983.js.map",
     "453.c675fa11.chunk.js.map": "/huda_clinic/static/js/453.c675fa11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68b6b5c8.css",
-    "static/js/main.ee71bee7.js"
+    "static/js/main.acb89983.js"
   ]
 }
