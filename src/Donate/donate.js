@@ -26,7 +26,7 @@ const Donate = () => {
               rel="noopener noreferrer"
             >
               <img
-                src={HudaGarden}
+                src={HudaBuilding}
                 alt="Clinic"
                 class="mb-4 h-[200px] w-full rounded-md object-cover object-center"
               />
@@ -45,7 +45,7 @@ const Donate = () => {
               rel="noopener noreferrer"
             >
               <img
-                src={HudaBuilding}
+                src={HudaGarden}
                 alt="Garden"
                 class="mb-4 h-[200px] w-full rounded-md object-cover object-center"
               />
