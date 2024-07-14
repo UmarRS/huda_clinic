@@ -5,7 +5,7 @@ import ImageCard from "./components/ImageCard";
 
 const Home = () => {
   const bannerStyle = {
-    backgroundImage: 'url("/detroit-skyline.jpeg")',
+    backgroundImage: 'url("${process.env.PUBLIC_URL}/detroit-skyline.jpeg")',
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
