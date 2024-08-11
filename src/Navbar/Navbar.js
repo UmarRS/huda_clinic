@@ -41,6 +41,7 @@ function NavigationButtons() {
           </Link>
 
           <div className="hidden items-start space-x-4 md:flex gap-10">
+            {/* Dropdown Menu and Links (same as before) */}
             <DropdownMenu>
               <DropdownMenuTrigger className="flex items-stretch gap-1 text-gray-900 flex-grow hover:text-blue-600 relative group">
                 <div className="flex flex-col items-start">
@@ -79,17 +80,7 @@ function NavigationButtons() {
                 <Separator className="hidden group-hover:block bg-gray-200 group-hover:bg-blue-600 h-px" />
               </div>
             </Link>
-            <Link
-              to="/donate"
-              className="text-gray-900 flex-grow hover:text-blue-600 relative group"
-              prefetch={false}
-            >
-              <div className="flex flex-col items-start">
-                <span>Give</span>
-                <span>to Clinic</span>
-                <Separator className="hidden group-hover:block bg-gray-200 group-hover:bg-blue-600 h-px" />
-              </div>
-            </Link>
+
             <Link
               to="/newsletter"
               className="text-gray-900 flex-grow hover:text-blue-600 relative group"
@@ -112,8 +103,31 @@ function NavigationButtons() {
                 <Separator className="hidden group-hover:block bg-gray-200 group-hover:bg-blue-600 h-px" />
               </div>
             </Link>
+            <Link
+              to="/donate"
+              className="flex-grow relative group"
+              prefetch={false}
+            >
+              <Button className=" text-xl rounded-full px-12 py-6 bg-orange-500 text-white transition duration-300 ease-in-out hover:scale-105 border-4 border-orange-300">
+                Donate
+              </Button>
+            </Link>
           </div>
         </div>
+
+        {/* Add the donate button here for small screens */}
+        <div className="flex md:hidden">
+          <Link
+            to="/donate"
+            className="flex-grow relative group"
+            prefetch={false}
+          >
+            <Button className=" text-xl rounded-full px-12 py-6 bg-[#add8e6] text-white transition duration-300 ease-in-out hover:scale-105 border-4 border-[#0e4457]">
+              Donate
+            </Button>
+          </Link>
+        </div>
+
         <div className="hidden items-center space-x-4 md:flex">
           <a
             href="https://myidentity.platform.athenahealth.com/oauth2/auset0ja9xZ2Hniep296/v1/authorize?client_id=0oa5jhhy36lw4YE6S297&code_challenge=73_ufOHvXzZpHSjCP2l8iqfMYO0x8SAogE2TBe6FZgo&code_challenge_method=S256&nonce=JoQ1tNE3NstCrsOY7zGCF2PcuvcyjJQzgCdTKOg0pqLuUTFtQ3glXOcG9idrySEZ&redirect_uri=https%3A%2F%2Fpxppapp.px.athena.io%2Flogin&response_type=code&state=t6SZvaYCIeYZco1d3LnRFkDqz7eG8TziAunvSMUIb2X7zoGukj3jsAowauJjQlk2&scope=openid%20email%20communicator.external_accounts.read"
@@ -132,9 +146,10 @@ function NavigationButtons() {
             New Patients
           </Link>
         </div>
+
         {/* for small screens */}
-        <div className="md:hidden ">
-          <Sheet className="text-left justify-left w-full h-[calc(100vh-4rem)] ">
+        <div className="md:hidden">
+          <Sheet className="text-left justify-left w-full h-[calc(100vh-4rem)]">
             <SheetTrigger asChild>
               <Button variant="outline" size="icon" className="rounded-xl">
                 <MenuIcon className="h-6 w-6 text-gray-900 dark:text-gray-50 rounded-xl" />
@@ -142,22 +157,19 @@ function NavigationButtons() {
               </Button>
             </SheetTrigger>
             <SheetContent side="top" className="bg-white h-[100vh]">
-              <div className="grid p-4 ">
-                {/* <Button className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out">
-                  About Huda Clinics
-                  <ChevronRightIcon className="h-4 w-4" />
-                </Button> */}
+              <div className="grid p-4">
+                {/* Same menu items as before */}
                 <SheetClose asChild>
                   <Link
                     to="/ourstory"
                     className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
                   >
                     <Button
-                      className="bg-white text-2xl	text-2xl	 text-black w-full text-left justify-start hover:bg-blue-100"
+                      className="bg-white text-2xl text-black w-full text-left justify-start hover:bg-blue-100"
                       type="submit"
                     >
                       Our Story
-                    </Button>{" "}
+                    </Button>
                   </Link>
                 </SheetClose>
                 <SheetClose asChild>
@@ -166,7 +178,7 @@ function NavigationButtons() {
                     className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
                   >
                     <Button
-                      className="bg-white text-2xl	text-2xl	 text-black w-full text-left justify-start hover:bg-blue-100"
+                      className="bg-white text-2xl text-black w-full text-left justify-start hover:bg-blue-100"
                       type="submit"
                     >
                       Our Team
@@ -179,21 +191,21 @@ function NavigationButtons() {
                     className="flex items-center text-2xl justify-between w-full bg-white text-black text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
                   >
                     <Button
-                      className="bg-white text-2xl	text-2xl	 text-black w-full text-left justify-start hover:bg-blue-100"
+                      className="bg-white text-2xl text-black w-full text-left justify-start hover:bg-blue-100"
                       type="submit"
                     >
                       Our Mission
-                    </Button>{" "}
+                    </Button>
                   </Link>
                 </SheetClose>
                 <Link
                   to="/healthservices"
-                  className="text-black text-2xl	 text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
+                  className="text-black text-2xl text-left hover:bg-blue-100 hover:border-b-2 hover:border-blue-600 transition-all duration-200 ease-in-out"
                   prefetch={false}
                 >
                   <SheetClose asChild>
                     <Button
-                      className="bg-white text-2xl	text-2xl	 text-black w-full text-left justify-start hover:bg-blue-100"
+                      className="bg-white text-2xl text-black w-full text-left justify-start hover:bg-blue-100"
                       type="submit"
                     >
                       Our Services
@@ -207,7 +219,7 @@ function NavigationButtons() {
                 >
                   <SheetClose asChild>
                     <Button
-                      className="bg-white text-2xl	 text-black justify-start w-full text-left hover:bg-blue-100"
+                      className="bg-white text-2xl text-black justify-start w-full text-left hover:bg-blue-100"
                       type="submit"
                     >
                       Give to Clinic
@@ -221,7 +233,7 @@ function NavigationButtons() {
                 >
                   <SheetClose asChild>
                     <Button
-                      className="bg-white text-2xl	 text-black justify-start w-full text-left hover:bg-blue-100"
+                      className="bg-white text-2xl text-black justify-start w-full text-left hover:bg-blue-100"
                       type="submit"
                     >
                       Join Our Newsletter
@@ -233,7 +245,7 @@ function NavigationButtons() {
                   <Button
                     href="https://myidentity.platform.athenahealth.com/oauth2/auset0ja9xZ2Hniep296/v1/authorize?client_id=0oa5jhhy36lw4YE6S297&code_challenge=73_ufOHvXzZpHSjCP2l8iqfMYO0x8SAogE2TBe6FZgo&code_challenge_method=S256&nonce=JoQ1tNE3NstCrsOY7zGCF2PcuvcyjJQzgCdTKOg0pqLuUTFtQ3glXOcG9idrySEZ&redirect_uri=https%3A%2F%2Fpxppapp.px.athena.io%2Flogin&response_type=code&state=t6SZvaYCIeYZco1d3LnRFkDqz7eG8TziAunvSMUIb2X7zoGukj3jsAowauJjQlk2&scope=openid%20email%20communicator.external_accounts.read"
                     target="_blank"
-                    className="bg-white text-2xl	 text-black w-full text-left hover:bg-blue-100 justify-start"
+                    className="bg-white text-2xl text-black w-full text-left hover:bg-blue-100 justify-start"
                     type="submit"
                   >
                     Patient Portal
@@ -241,11 +253,10 @@ function NavigationButtons() {
                   </Button>
                 </SheetClose>
                 <SheetClose>
-                  <div className="bg-white text-2xl	 text-black w-full text-left hover:bg-blue-100 justify-start">
+                  <div className="bg-white text-2xl text-black w-full text-left hover:bg-blue-100 justify-start">
                     <Button
-                      // href="https://myidentity.platform.athenahealth.com/oauth2/auset0ja9xZ2Hniep296/v1/authorize?client_id=0oa5jhhy36lw4YE6S297&code_challenge=73_ufOHvXzZpHSjCP2l8iqfMYO0x8SAogE2TBe6FZgo&code_challenge_method=S256&nonce=JoQ1tNE3NstCrsOY7zGCF2PcuvcyjJQzgCdTKOg0pqLuUTFtQ3glXOcG9idrySEZ&redirect_uri=https%3A%2F%2Fpxppapp.px.athena.io%2Flogin&response_type=code&state=t6SZvaYCIeYZco1d3LnRFkDqz7eG8TziAunvSMUIb2X7zoGukj3jsAowauJjQlk2&scope=openid%20email%20communicator.external_accounts.read"
                       target="_blank"
-                      className="bg-white text-2xl	 text-black w-full text-left hover:bg-blue-100 justify-start"
+                      className="bg-white text-2xl text-black w-full text-left hover:bg-blue-100 justify-start"
                       type="submit"
                     >
                       <CircleUser className="mr-1" />

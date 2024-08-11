@@ -33,7 +33,7 @@ const Home = () => {
         >
           <div>
             <h1 className="text-10xl md:text-6xl sm:text-5xl font-bold mb-6 md:mb-12">
-              Huda - A Free Clinic Serving Metro Detroit
+              HUDA - A Free Clinic Serving Metro Detroit
             </h1>
             <h2 className="text-4xl md:text-3xl sm:text-2xl font-bold mb-12">
               Helping the uninsured and under-insured of Metro Detroit
