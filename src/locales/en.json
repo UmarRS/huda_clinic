@@ -1,0 +1,299 @@
+{
+    "welcome": "HUDA - A Free Clinic Serving Metro Detroit",
+    "help": "Helping the uninsured and under-insured of Metro Detroit",
+    "our_services": "Our Services",
+    "primary_care": "Primary Care",
+    "mental_health": "Mental Health",
+    "dental_care": "Dental Care",
+    "vision_care": "Vision Care",
+    "specialty_care": "Specialty Care",
+    "new_patients":"New Patients",
+    "patient_portal": "Patient Portal",
+    "contact_us": "Contact Us",
+    "phone": "Phone",
+    "address": "Address",
+    "hours": "Hours",
+    "email": "Email",
+    "fax": "Fax",
+    "socials": "Socials",
+    "tuesday_hours": "Tuesday: 8:30 AM – 2:00 PM (limited walk-in/appointments)",
+    "wednesday_hours": "Wednesday: 9:00 AM – 12:00 PM (TELEMEDICINE ONLY)",
+    "thursday_hours": "Thursday: 8:30 AM – 2:00 PM (limited walk-in/appointments)",
+    "saturday_hours": "Saturday: 8:30 AM – 2:00 PM (limited walk-in/appointments)",
+    "sunday_hours": "Sunday: Closed",
+    "clinic_phone": "+1 (313) 865-8446",
+    "clinic_address": "13240 Woodrow Wilson St., Detroit, MI 48238",
+    "clinic_fax": "+1 (313) 865-8474",
+    "clinic_email": "info@hudaclinic.org",
+    "about_us": "About Huda Clinic",
+    "mission_statement": "Our mission is to provide the best healthcare services to our community.",
+    "our_story": "Our Story",
+    "story_paragraph1": "HUDA Clinic first opened its doors in May 2004 to serve the uninsured population of the Detroit area. The clinic initially operated on funds gathered by the Muslim community of Metro Detroit.",
+    "story_paragraph2": "The HUDA Clinic initially offered only medical services at its original location within the Muslim Center of Detroit. After relocating to a larger facility on Woodrow Wilson Street, we expanded our offerings to include comprehensive dental, vision, podiatry, and mental health services, along with various specialty services, all provided at no cost to our patients. This expansion of services and extended operating hours was made possible through the generous support of our donors and volunteers.",
+    "our_facilities": "Our Facilities",
+    "facilities_text": "At Huda Clinic, we pride ourselves on our staff, equipped with caliber medical technology to ensure our patients receive the best possible care.",
+    "chairman": "Chairman",
+    "chairman_text": "Mission Statement: \"Improving the lives of those in need through comprehensive health care, education, and resources.\" - Dr. Jukaku Tayeb, Chairman",
+    "proud_members": "Proud Members in Good Standing with:",
+    "discover_more": "Discover more about Huda Clinic",
+    "our_team": "Our Team",
+    "our_team_description": "Get to know the dedicated professionals who make up our team.",
+    "learn_more": "Learn more",
+    "our_mission": "Our Mission",
+    "our_mission_description": "Learn about our mission to provide exceptional healthcare services.",
+    "mission_banner_title": "Our Mission",
+    "mission_quote": "\"Improving the lives of those in need through comprehensive healthcare, education, and resources.\"",
+    "history_and_mission": "Our History and Mission",
+    "origins_and_expansion": "Origins and Expansion",
+    "origins_expansion_text": "HUDA Clinic first opened its doors in May 2004 to serve the uninsured population of Detroit, initially funded by the Muslim community of Metro Detroit. From its beginnings at the Muslim Center of Detroit, the clinic relocated to a larger facility on Woodrow Wilson Street, enabling an expansion of services.",
+    "comprehensive_services": "Comprehensive Services",
+    "comprehensive_services_text": "Originally providing only medical services, HUDA Clinic now offers dental, vision, podiatry, mental health, and a wide range of specialty services—all at no cost to patients. This expansion has been made possible through the support of donors and volunteers.",
+    "mission_and_vision": "Mission and Vision",
+    "mission_vision_text": "Our mission is to improve the lives of those in need through comprehensive healthcare, education, and resources. We strive to provide free, quality healthcare to the uninsured and underinsured, with no fees or third-party reimbursements.",
+    "services_and_reach": "Services and Reach",
+    "diverse_healthcare_services": "Diverse Healthcare Services",
+    "diverse_services_text": "HUDA Clinic provides free primary care, dental care, mental health services, vision care, and specialty care. We offer preventative screenings, health assessments, chronic illness management, and referrals to specialists as needed.",
+    "community_impact": "Community Impact",
+    "community_impact_text": "Each year, HUDA Clinic provides over 3,500 services to more than 1,200 unique individuals. As the largest free clinic in Michigan, we make a significant impact on the health and well-being of the community.",
+    "access_and_affordability": "Access and Affordability",
+    "access_affordability_text": "We never charge fees or seek reimbursements from insurance companies or government programs. Instead, our operations are funded by donations from generous supporters, ensuring that our services remain free for those in need.",
+    "support_and_partnerships": "Support and Partnerships",
+    "donor_support": "Donor Support",
+    "donor_support_text": "80% of our annual operating budget is funded through donations from generous individuals and organizations. Every donation, big or small, makes a real difference in the lives of people in Metro-Detroit.",
+    "volunteerism_and_leadership": "Volunteerism and Leadership",
+    "volunteerism_leadership_text": "Our success is built on the dedication of physician volunteers and passionate student leaders. Together, they help us achieve our mission and provide high-quality care to our patients.",
+    "community_partnerships": "Community Partnerships",
+    "community_partnerships_text": "HUDA Clinic is deeply connected to the community through partnerships with homeless shelters, non-profit organizations, religious groups, and local universities. These collaborations enable us to extend our reach and enhance the services we provide.",
+    "explore_services": "Explore Our Services",
+    "header": {
+        "title": "Free Community Health Services",
+        "description": "Improving the lives of those in need through comprehensive healthcare, education and resources"
+      },
+      "ourServices": {
+        "title": "Our Services",
+        "description": "Explore our wide range of healthcare services designed to meet the diverse needs of our community.",
+        "findCareTitle": "Find the Care You Need",
+        "findCareDescription": "Our comprehensive healthcare services are designed to cater to all your medical needs. Explore our offerings and discover how we can support your well-being."
+      },
+      "serviceCards": {
+        "primaryCare": {
+          "title": "Primary Care",
+          "description": "Primary care providers address general health concerns, offering education, medications, and referrals. HUDA serves uninsured and under-insured individuals in Metro Detroit with preventative care and specialized services. We aim to improve Michigan's health with free medications and no-cost lab services.",
+          "servicesTitle": "Our Primary Care Services Include:",
+          "services": [
+            "Health Assessments",
+            "Acute and Chronic Illness Management",
+            "Laboratory Services (blood work)",
+            "No Cost Pharmacy",
+            "Diabetes Screening & Treatments",
+            "Health Education and Resources",
+            "Nutrition education"
+          ]
+        },
+        "dentalCare": {
+          "title": "Dental Care",
+          "description": "Many people delay dental work due to lack of insurance, but small problems can become painful if ignored. Visit HUDA for cleanings, fillings, extractions, and exams to maintain healthy teeth. We also provide referrals to specialists if needed.",
+          "servicesTitle": "Our Dental Care Services Include:",
+          "services": [
+            "Dental screenings, and X-Rays",
+            "Deep Cleanings",
+            "Composite Fillings",
+            "Tooth Extraction",
+            "Referrals to low cost dentists as needed"
+          ]
+        },
+        "mentalHealth": {
+          "title": "Mental Health",
+          "description": "Our psychiatrists and social workers offer free therapy and treatment for veterans, the homeless, uninsured, and underinsured. Since COVID-19, our psychiatry services are via telemedicine. Our volunteer team includes two psychiatrists, a nurse practitioner, and a therapist.",
+          "servicesTitle": "Our Mental Health Services Include:",
+          "services": [
+            "Prescribing psychiatrist on site",
+            "Adult Counseling",
+            "Anxiety/Depression",
+            "Bipolar Disorders",
+            "Eating Disorders",
+            "Schizoaffective Disorders, and more"
+          ]
+        },
+        "visionCare": {
+          "title": "Vision Care",
+          "description": "Vision screenings effectively identify visual impairments or eye conditions that could lead to vision loss. We conduct screenings in-house and offer free eyewear and referrals to affordable local ophthalmologists when needed.",
+          "servicesTitle": "Our Vision Care Services Include:",
+          "services": [
+            "Glaucoma Screenings",
+            "Cataract Screenings",
+            "Macular Degeneration Screenings",
+            "FREE eye-wear",
+            "Referrals to vision specialists"
+          ]
+        },
+        "specialtyCare": {
+          "title": "Specialty Care",
+          "description": "In medicine, many sub-specialties coordinate patient care. At HUDA, we offer various specialty care and consultations to expand healthcare access. Our integrated health model provides multiple specialty services to meet most patient needs. All specialty services require a referral from a HUDA primary care provider.",
+          "servicesTitle": "Our Specialty Care Services Include:",
+          "services": [
+            "Physical Therapy",
+            "Endocrinology",
+            "Cardiology",
+            "Nephrology",
+            "Gastroenterology",
+            "Ear, Nose, Throat (ENT)",
+            "Hepatology",
+            "Hematology",
+            "Medication Management Therapy",
+            "Pulmonology"
+          ]
+        }
+      },
+      "newPatientInfo": {
+        "title": "New Patient Information",
+        "description1": "New patients are always welcome at the HUDA Clinic! You can schedule your initial appointment by visiting our clinic during our regular hours, or you may also come for a walk-in appointment before 10:30 AM, or until we reach our capacity on the days we offer walk-ins (see below).",
+        "description2": "New patients must bring with them a valid photo ID, and must be at least 18 years old.",
+        "hoursTitle": "Hours:",
+        "hours": [
+          "Tuesday: 8:30 AM – 2:00 PM (limited walk-in availability)",
+          "Wednesday: 9:00 AM – 12:00 PM (Telemedicine only)",
+          "Thursday: 8:30 AM – 2:00 PM (limited walk-in availability)",
+          "Saturday: 8:30 AM – 2:00 PM (limited walk-in availability)"
+        ]
+      },
+      "healthservices_moreinfo":"View Services",
+      "donate_header": {
+    "title": "Donate",
+    "description": "Support our mission by donating to the clinic or the urban garden"
+  },
+  "donate_options": {
+    "clinic": {
+      "title": "Donate to the Clinic",
+      "description": "Your donation will help us provide high-quality medical care to those in need.",
+      "buttonText": "Donate to Clinic"
+    },
+    "garden": {
+      "title": "Donate to the Garden",
+      "description": "Your donation will help us maintain and expand our beautiful community garden.",
+      "buttonText": "Donate to Garden"
+    }
+  },
+  "newsletter_header": {
+    "title": "Join Our Newsletter",
+    "description": "Stay Informed. Get Updates on Our Free Medical Services, Community Events, and Health Tips!"
+  },
+  "newsletter_form": {
+    "loading": "Loading…"
+  },
+  "newPatient_header": {
+    "title": "Patient Signup",
+    "description": "Speed up your visit by filling out your information online."
+  },
+  "newPatient_form": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "dob": "Date of Birth",
+    "department": "Department",
+    "email": "Email",
+    "mobilePhone": "Mobile Phone",
+    "workPhone": "Work Phone",
+    "address": "Address",
+    "zipCode": "Zip Code",
+    "familySize": "Family Size",
+    "incomeLevel": "Income Level",
+    "veteranStatus": "Veteran Status",
+    "employmentStatus": "Employment Status",
+    "preferredLanguage": "Preferred Language",
+    "raceEthnicity": "Race/Ethnicity",
+    "signUpButton": "Sign Up",
+    "selectPlaceholder": "Select"
+  },
+  "newPatient_options": {
+    "departments": {
+      "familyMedicine": "Family Medicine",
+      "internalMedicine": "Internal Medicine",
+      "pediatrics": "Pediatrics",
+      "obstetricsGynecology": "Obstetrics & Gynecology",
+      "surgery": "Surgery",
+      "other": "Other"
+    },
+    "incomeLevels": {
+      "under25k": "Under $25,000",
+      "25k50k": "$25,000 - $50,000",
+      "50k75k": "$50,000 - $75,000",
+      "75k100k": "$75,000 - $100,000",
+      "over100k": "Over $100,000"
+    },
+    "veteranStatus": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "employmentStatuses": {
+      "employed": "Employed",
+      "unemployed": "Unemployed",
+      "retired": "Retired",
+      "student": "Student",
+      "other": "Other"
+    },
+    "languages": {
+      "english": "English",
+      "spanish": "Spanish",
+      "mandarin": "Mandarin",
+      "arabic": "Arabic",
+      "other": "Other"
+    },
+    "raceEthnicity": {
+      "white": "White",
+      "black": "Black or African American",
+      "hispanic": "Hispanic or Latino",
+      "asian": "Asian",
+      "nativeAmerican": "Native American or Alaska Native",
+      "pacificIslander": "Native Hawaiian or Pacific Islander",
+      "other": "Other"
+    }
+  },
+  "notFound": {
+    "title": "404 - Page Not Found",
+    "description": "Sorry, the page you are looking for does not exist.",
+    "goHome": "Go to Home"
+  },
+  "donateSection": {
+    "title": "Help Us Do More",
+    "description": "Your donation can make a real difference in our community.",
+    "buttonText": "Donate Today"
+  },
+  "navbar": {
+    "about": {
+      "title": "About",
+      "subtitle": "Huda Clinic",
+      "ourHistory": "Our History",
+      "ourTeam": "Our Team",
+      "ourMission": "Our Mission"
+    },
+    "our": "Our",
+    "services":"Services",
+    "newsletter": {
+      "join": "Join Our",
+      "newsletter": "Newsletter"
+    },
+    "contactUs": {
+      "contact": "Contact",
+      "us": "Us"
+    },
+    "donate": "Donate",
+    "patientPortal": "Patient Portal",
+    "newPatients": "New Patients",
+    "giveToClinic": "Give to Clinic"
+  },
+  "footer": {
+    "meta": {
+      "keywords": "Specialties: Walk In Clinic, Free Clinic, Community Health Center, Free Dental Care, Free Health Clinic, Free Dental Clinic, Community Clinic, Community Mental Health Center, Free Medical Clinic, Free Mental Health Services, No Insurance Clinic, Free Medication, Areas: Detroit MI, New Center, Tech Town, Hamtramck MI, Dearborn MI, Highland Park MI, Oak Park MI, Metro Detroit, Free Clinic Dearborn MI, Free Dental Care Hamtramck MI, Free Mental Health Services Metro Detroit"
+    },
+    "supportTitle": "Help Support Our Community",
+    "supportText": "We couldn't do what we do without donations from people just like you. Every donation, big or small, makes a real difference in the lives of people in Metro-Detroit. Donate today.",
+    "donateButton": "Donate",
+    "home": "Home",
+    "donate": "Donate",
+    "contactUs": "Contact Us",
+    "copyright": "The contents of this webpage are Copyright © 2024 HUDA Free Community Health Clinic. All Rights Reserved."
+  }
+  
+    
+  }
+  

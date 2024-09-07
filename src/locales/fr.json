@@ -1,0 +1,297 @@
+{
+    "welcome": "HUDA - Une clinique gratuite au service de la région métropolitaine de Détroit",
+    "help": "Aider les personnes non assurées et sous-assurées de la région métropolitaine de Détroit",
+    "our_services": "Nos services",
+    "primary_care": "Soins primaires",
+    "mental_health": "Santé mentale",
+    "dental_care": "Soins dentaires",
+    "vision_care": "Soins de la vue",
+    "specialty_care": "Soins spécialisés",
+    "new_patients": "Nouveaux patients",
+    "patient_portal": "Portail patient",
+    "contact_us": "Nous contacter",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "email": "E-mail",
+    "fax": "Fax",
+    "socials": "Réseaux sociaux",
+    "tuesday_hours": "Mardi : 8h30 – 14h00 (accès limité sans rendez-vous/sur rendez-vous)",
+    "wednesday_hours": "Mercredi : 9h00 – 12h00 (télémédecine UNIQUEMENT)",
+    "thursday_hours": "Jeudi : 8h30 – 14h00 (accès limité sans rendez-vous/sur rendez-vous)",
+    "saturday_hours": "Samedi : 8h30 – 14h00 (accès limité sans rendez-vous/sur rendez-vous)",
+    "sunday_hours": "Dimanche : Fermé",
+    "clinic_phone": "+1 (313) 865-8446",
+    "clinic_address": "13240 Woodrow Wilson St., Détroit, MI 48238",
+    "clinic_fax": "+1 (313) 865-8474",
+    "clinic_email": "info@hudaclinic.org",
+    "about_us": "À propos de la clinique Huda",
+    "mission_statement": "Notre mission est de fournir les meilleurs services de soins de santé à notre communauté.",
+    "our_story": "Notre histoire",
+    "story_paragraph1": "La clinique HUDA a ouvert ses portes pour la première fois en mai 2004 pour servir la population non assurée de la région de Détroit. La clinique fonctionnait initialement avec des fonds recueillis par la communauté musulmane de la région métropolitaine de Détroit.",
+    "story_paragraph2": "La clinique HUDA offrait initialement uniquement des services médicaux à son emplacement d'origine au sein du centre musulman de Détroit. Après avoir déménagé dans une installation plus grande sur Woodrow Wilson Street, nous avons étendu nos services pour inclure des soins dentaires, des soins de la vue, des soins de la podologie et des services de santé mentale, ainsi que divers services spécialisés, tous fournis gratuitement à nos patients. Cette expansion des services et des horaires a été rendue possible grâce au soutien généreux de nos donateurs et bénévoles.",
+    "our_facilities": "Nos installations",
+    "facilities_text": "À la clinique Huda, nous sommes fiers de notre personnel, équipé de technologies médicales de pointe, pour assurer à nos patients les meilleurs soins possibles.",
+    "chairman": "Président",
+    "chairman_text": "Déclaration de mission : \"Améliorer la vie des personnes dans le besoin grâce à des soins de santé complets, à l'éducation et aux ressources.\" - Dr. Jukaku Tayeb, Président",
+    "proud_members": "Membres en règle de :",
+    "discover_more": "Découvrez-en plus sur la clinique Huda",
+    "our_team": "Notre équipe",
+    "our_team_description": "Découvrez les professionnels dévoués qui composent notre équipe.",
+    "learn_more": "En savoir plus",
+    "our_mission": "Notre mission",
+    "our_mission_description": "Découvrez notre mission de fournir des services de soins de santé exceptionnels.",
+    "mission_banner_title": "Notre mission",
+    "mission_quote": "\"Améliorer la vie des personnes dans le besoin grâce à des soins de santé complets, à l'éducation et aux ressources.\"",
+    "history_and_mission": "Notre histoire et mission",
+    "origins_and_expansion": "Origines et expansion",
+    "origins_expansion_text": "La clinique HUDA a ouvert ses portes en mai 2004 pour servir la population non assurée de Détroit, initialement financée par la communauté musulmane de la région métropolitaine de Détroit. Depuis ses débuts au centre musulman de Détroit, la clinique a déménagé dans une installation plus grande sur Woodrow Wilson Street, ce qui a permis d'élargir ses services.",
+    "comprehensive_services": "Services complets",
+    "comprehensive_services_text": "À l'origine, la clinique HUDA ne fournissait que des services médicaux, mais elle offre maintenant des soins dentaires, des soins de la vue, des soins de la podologie, des services de santé mentale et une large gamme de services spécialisés—le tout sans frais pour les patients. Cette expansion a été rendue possible grâce au soutien des donateurs et des bénévoles.",
+    "mission_and_vision": "Mission et vision",
+    "mission_vision_text": "Notre mission est d'améliorer la vie des personnes dans le besoin grâce à des soins de santé complets, à l'éducation et aux ressources. Nous nous efforçons de fournir des soins de santé gratuits et de qualité aux personnes non assurées et sous-assurées, sans frais ni remboursements de tiers.",
+    "services_and_reach": "Services et portée",
+    "diverse_healthcare_services": "Services de santé diversifiés",
+    "diverse_services_text": "La clinique HUDA offre des soins primaires, des soins dentaires, des services de santé mentale, des soins de la vue et des soins spécialisés gratuits. Nous proposons des dépistages préventifs, des évaluations de santé, la gestion des maladies chroniques et des renvois à des spécialistes si nécessaire.",
+    "community_impact": "Impact sur la communauté",
+    "community_impact_text": "Chaque année, la clinique HUDA fournit plus de 3 500 services à plus de 1 200 individus uniques. En tant que plus grande clinique gratuite du Michigan, nous avons un impact significatif sur la santé et le bien-être de la communauté.",
+    "access_and_affordability": "Accès et accessibilité",
+    "access_affordability_text": "Nous ne facturons jamais de frais ni ne demandons de remboursements aux compagnies d'assurance ou aux programmes gouvernementaux. Au lieu de cela, nos opérations sont financées par des dons de généreux soutiens, garantissant que nos services restent gratuits pour ceux qui en ont besoin.",
+    "support_and_partnerships": "Soutien et partenariats",
+    "donor_support": "Soutien des donateurs",
+    "donor_support_text": "80% de notre budget de fonctionnement annuel est financé par des dons de particuliers et d'organisations généreuses. Chaque don, grand ou petit, fait une véritable différence dans la vie des habitants de la région métropolitaine de Détroit.",
+    "volunteerism_and_leadership": "Bénévolat et leadership",
+    "volunteerism_leadership_text": "Notre succès repose sur l'engagement des médecins bénévoles et des leaders étudiants passionnés. Ensemble, ils nous aident à atteindre notre mission et à fournir des soins de haute qualité à nos patients.",
+    "community_partnerships": "Partenariats communautaires",
+    "community_partnerships_text": "La clinique HUDA est profondément connectée à la communauté grâce à des partenariats avec des refuges pour sans-abris, des organisations à but non lucratif, des groupes religieux et des universités locales. Ces collaborations nous permettent d'étendre notre portée et d'améliorer les services que nous offrons.",
+    "explore_services": "Explorez nos services",
+    "header": {
+      "title": "Services de santé communautaires gratuits",
+      "description": "Améliorer la vie des personnes dans le besoin grâce à des soins de santé complets, à l'éducation et aux ressources"
+    },
+    "ourServices": {
+      "title": "Nos services",
+      "description": "Explorez notre large gamme de services de santé conçus pour répondre aux besoins divers de notre communauté.",
+      "findCareTitle": "Trouvez les soins dont vous avez besoin",
+      "findCareDescription": "Nos services de santé complets sont conçus pour répondre à tous vos besoins médicaux. Explorez nos offres et découvrez comment nous pouvons soutenir votre bien-être."
+    },
+    "serviceCards": {
+      "primaryCare": {
+        "title": "Soins primaires",
+        "description": "Les prestataires de soins primaires traitent les préoccupations générales en matière de santé, en offrant de l'éducation, des médicaments et des renvois. HUDA dessert les personnes non assurées et sous-assurées de la région métropolitaine de Détroit avec des soins préventifs et des services spécialisés. Notre objectif est d'améliorer la santé du Michigan grâce à des médicaments gratuits et à des services de laboratoire sans frais.",
+        "servicesTitle": "Nos services de soins primaires incluent :",
+        "services": [
+          "Évaluations de santé",
+          "Gestion des maladies aiguës et chroniques",
+          "Services de laboratoire (analyses de sang)",
+          "Pharmacie gratuite",
+          "Dépistage et traitements du diabète",
+          "Éducation et ressources en santé",
+          "Éducation nutritionnelle"
+        ]
+      },
+      "dentalCare": {
+        "title": "Soins dentaires",
+        "description": "Beaucoup de gens retardent les soins dentaires faute d'assurance, mais de petits problèmes peuvent devenir douloureux s'ils sont ignorés. Rendez-vous à la clinique HUDA pour des nettoyages, des obturations, des extractions et des examens afin de maintenir la santé de vos dents. Nous fournissons également des renvois à des spécialistes si nécessaire.",
+        "servicesTitle": "Nos services de soins dentaires incluent :",
+        "services": [
+          "Dépistages dentaires et radiographies",
+          "Nettoyages en profondeur",
+          "Obturation composite",
+          "Extraction de dents",
+          "Renvois à des dentistes à faible coût si nécessaire"
+        ]
+      },
+      "mentalHealth": {
+        "title": "Santé mentale",
+        "description": "Nos psychiatres et travailleurs sociaux offrent des thérapies et des traitements gratuits pour les vétérans, les sans-abris, les non-assurés et les sous-assurés. Depuis la pandémie de COVID-19, nos services psychiatriques sont offerts via télémédecine. Notre équipe bénévole comprend deux psychiatres, un infirmier praticien et un thérapeute.",
+        "servicesTitle": "Nos services de santé mentale incluent :",
+        "services": [
+          "Psychiatre prescripteur sur place",
+          "Conseils pour adultes",
+          "Anxiété/dépression",
+          "Troubles bipolaires",
+          "Troubles alimentaires",
+          "Troubles schizo-affectifs, et plus"
+        ]
+      },
+      "visionCare": {
+        "title": "Soins de la vue",
+        "description": "Les dépistages de la vue permettent de détecter efficacement les déficiences visuelles ou les maladies oculaires qui pourraient entraîner une perte de vision. Nous effectuons des dépistages sur place et offrons des lunettes gratuites ainsi que des renvois à des ophtalmologues locaux à prix abordable si nécessaire.",
+        "servicesTitle": "Nos services de soins de la vue incluent :",
+        "services": [
+          "Dépistage du glaucome",
+          "Dépistage des cataractes",
+          "Dépistage de la dégénérescence maculaire",
+          "Lunettes GRATUITES",
+          "Renvois à des spécialistes de la vision"
+        ]
+      },
+      "specialtyCare": {
+        "title": "Soins spécialisés",
+        "description": "En médecine, de nombreuses sous-spécialités coordonnent les soins aux patients. À la clinique HUDA, nous offrons divers soins spécialisés et consultations pour élargir l'accès aux soins. Notre modèle de santé intégré propose plusieurs services spécialisés pour répondre aux besoins de la plupart des patients. Tous les services spécialisés nécessitent une recommandation d'un prestataire de soins primaires de HUDA.",
+        "servicesTitle": "Nos services de soins spécialisés incluent :",
+        "services": [
+          "Physiothérapie",
+          "Endocrinologie",
+          "Cardiologie",
+          "Néphrologie",
+          "Gastroentérologie",
+          "ORL (oreilles, nez et gorge)",
+          "Hépatologie",
+          "Hématologie",
+          "Thérapie de gestion des médicaments",
+          "Pneumologie"
+        ]
+      }
+    },
+    "newPatientInfo": {
+      "title": "Informations pour les nouveaux patients",
+      "description1": "Les nouveaux patients sont toujours les bienvenus à la clinique HUDA ! Vous pouvez planifier votre premier rendez-vous en visitant notre clinique pendant nos heures régulières, ou vous pouvez également venir pour une consultation sans rendez-vous avant 10h30, ou jusqu'à ce que nous atteignions notre capacité les jours où nous offrons des consultations sans rendez-vous (voir ci-dessous).",
+      "description2": "Les nouveaux patients doivent apporter une pièce d'identité avec photo valide et doivent avoir au moins 18 ans.",
+      "hoursTitle": "Horaires :",
+      "hours": [
+        "Mardi : 8h30 – 14h00 (disponibilité limitée pour les consultations sans rendez-vous)",
+        "Mercredi : 9h00 – 12h00 (télémédecine uniquement)",
+        "Jeudi : 8h30 – 14h00 (disponibilité limitée pour les consultations sans rendez-vous)",
+        "Samedi : 8h30 – 14h00 (disponibilité limitée pour les consultations sans rendez-vous)"
+      ]
+    },
+    "healthservices_moreinfo": "Voir les services",
+    "donate_header": {
+      "title": "Faire un don",
+      "description": "Soutenez notre mission en faisant un don à la clinique ou au jardin urbain"
+    },
+    "donate_options": {
+      "clinic": {
+        "title": "Faire un don à la clinique",
+        "description": "Votre don nous aidera à fournir des soins médicaux de haute qualité aux personnes dans le besoin.",
+        "buttonText": "Faire un don à la clinique"
+      },
+      "garden": {
+        "title": "Faire un don au jardin",
+        "description": "Votre don nous aidera à entretenir et à agrandir notre beau jardin communautaire.",
+        "buttonText": "Faire un don au jardin"
+      }
+    },
+    "newsletter_header": {
+      "title": "Rejoignez notre newsletter",
+      "description": "Restez informé. Recevez des mises à jour sur nos services médicaux gratuits, nos événements communautaires et des conseils de santé !"
+    },
+    "newsletter_form": {
+      "loading": "Chargement…"
+    },
+    "newPatient_header": {
+      "title": "Inscription des patients",
+      "description": "Accélérez votre visite en remplissant vos informations en ligne."
+    },
+    "newPatient_form": {
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "dob": "Date de naissance",
+      "department": "Département",
+      "email": "E-mail",
+      "mobilePhone": "Téléphone portable",
+      "workPhone": "Téléphone professionnel",
+      "address": "Adresse",
+      "zipCode": "Code postal",
+      "familySize": "Taille de la famille",
+      "incomeLevel": "Niveau de revenu",
+      "veteranStatus": "Statut de vétéran",
+      "employmentStatus": "Statut d'emploi",
+      "preferredLanguage": "Langue préférée",
+      "raceEthnicity": "Race/ethnicité",
+      "signUpButton": "S'inscrire",
+      "selectPlaceholder": "Sélectionnez"
+    },
+    "newPatient_options": {
+      "departments": {
+        "familyMedicine": "Médecine familiale",
+        "internalMedicine": "Médecine interne",
+        "pediatrics": "Pédiatrie",
+        "obstetricsGynecology": "Obstétrique et gynécologie",
+        "surgery": "Chirurgie",
+        "other": "Autre"
+      },
+      "incomeLevels": {
+        "under25k": "Moins de 25 000 $",
+        "25k50k": "25 000 $ - 50 000 $",
+        "50k75k": "50 000 $ - 75 000 $",
+        "75k100k": "75 000 $ - 100 000 $",
+        "over100k": "Plus de 100 000 $"
+      },
+      "veteranStatus": {
+        "yes": "Oui",
+        "no": "Non"
+      },
+      "employmentStatuses": {
+        "employed": "Employé",
+        "unemployed": "Sans emploi",
+        "retired": "Retraité",
+        "student": "Étudiant",
+        "other": "Autre"
+      },
+      "languages": {
+        "english": "Anglais",
+        "spanish": "Espagnol",
+        "mandarin": "Mandarin",
+        "arabic": "Arabe",
+        "other": "Autre"
+      },
+      "raceEthnicity": {
+        "white": "Blanc",
+        "black": "Noir ou Afro-Américain",
+        "hispanic": "Hispanique ou Latino",
+        "asian": "Asiatique",
+        "nativeAmerican": "Amérindien ou natif d'Alaska",
+        "pacificIslander": "Hawaïen natif ou insulaire du Pacifique",
+        "other": "Autre"
+      }
+    },
+    "notFound": {
+      "title": "404 - Page non trouvée",
+      "description": "Désolé, la page que vous recherchez n'existe pas.",
+      "goHome": "Retour à l'accueil"
+    },
+    "donateSection": {
+      "title": "Aidez-nous à faire plus",
+      "description": "Votre don peut faire une réelle différence dans notre communauté.",
+      "buttonText": "Faire un don aujourd'hui"
+    },
+    "navbar": {
+      "about": {
+        "title": "À propos",
+        "subtitle": "Clinique Huda",
+        "ourHistory": "Notre histoire",
+        "ourTeam": "Notre équipe",
+        "ourMission": "Notre mission"
+      },
+      "our": "Notre",
+      "services": "Services",
+      "newsletter": {
+        "join": "Rejoignez",
+        "newsletter": "notre newsletter"
+      },
+      "contactUs": {
+        "contact": "Contactez",
+        "us": "nous"
+      },
+      "donate": "Faire un don",
+      "patientPortal": "Portail patient",
+      "newPatients": "Nouveaux patients",
+      "giveToClinic": "Donner à la clinique"
+    },
+    "footer": {
+    "meta": {
+      "keywords": "Spécialités : Clinique sans rendez-vous, Clinique gratuite, Centre de santé communautaire, Soins dentaires gratuits, Clinique médicale gratuite, Clinique dentaire gratuite, Clinique communautaire, Centre communautaire de santé mentale, Services gratuits de santé mentale, Clinique médicale gratuite, Services gratuits de santé mentale, Clinique sans assurance, Médicaments gratuits, Zones : Détroit MI, New Center, Tech Town, Hamtramck MI, Dearborn MI, Highland Park MI, Oak Park MI, Metro Detroit, Clinique gratuite Dearborn MI, Soins dentaires gratuits Hamtramck MI, Services gratuits de santé mentale Metro Detroit"
+    },
+    "supportTitle": "Aidez à soutenir notre communauté",
+    "supportText": "Nous ne pourrions pas faire ce que nous faisons sans les dons de personnes comme vous. Chaque don, grand ou petit, fait une réelle différence dans la vie des habitants de la région de Détroit. Faites un don aujourd'hui.",
+    "donateButton": "Faire un don",
+    "home": "Accueil",
+    "donate": "Faire un don",
+    "contactUs": "Contactez-nous",
+    "copyright": "Le contenu de cette page Web est protégé par le droit d'auteur © 2024 Clinique de santé communautaire gratuite HUDA. Tous droits réservés."
+  }
+  }
+  

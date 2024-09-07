@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import header from "./header.jpg";
 
 const Newsletter = () => {
   const [showConfirmation, setShowConfirmation] = useState(false);
   const [email, setEmail] = useState("");
+  const { t } = useTranslation();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -21,11 +23,10 @@ const Newsletter = () => {
       >
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-white">
-            Join Our Newsletter
+            {t("newsletter_header.title")}
           </h2>
           <p className="text-lg text-white">
-            Stay Informed. Get Updates on Our Free Medical Services, Community
-            Events, and Health Tips!{" "}
+            {t("newsletter_header.description")}
           </p>
         </div>
       </section>
@@ -34,9 +35,9 @@ const Newsletter = () => {
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSfZbo6Z4AAoFwKNqfGoX6CBPMvx4HnhpqNhJ8sRyRdDsOv7Jw/viewform?embedded=true"
             className="w-full h-full"
-            frameborder="0"
+            frameBorder="0"
           >
-            Loading…
+            {t("newsletter_form.loading")}
           </iframe>
         </div>
       </form>

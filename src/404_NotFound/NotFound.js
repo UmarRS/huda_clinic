@@ -1,16 +1,16 @@
-// NotFound.js
 import React from "react";
-import { Link } from "../../node_modules/react-router-dom/dist/index";
+import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const NotFound = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="container mx-auto text-center py-16">
-      <h1 className="text-4xl font-bold mb-4">404 - Page Not Found</h1>
-      <p className="text-lg mb-8">
-        Sorry, the page you are looking for does not exist.
-      </p>
+      <h1 className="text-4xl font-bold mb-4">{t("notFound.title")}</h1>
+      <p className="text-lg mb-8">{t("notFound.description")}</p>
       <Link to="/" className="text-blue-500">
-        Go to Home
+        {t("notFound.goHome")}
       </Link>
     </div>
   );

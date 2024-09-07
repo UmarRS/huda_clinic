@@ -2,10 +2,12 @@ import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 import Cookies from "js-cookie";
-import { Link } from "../../node_modules/react-router-dom/dist/index";
+import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const DonateSection = () => {
   const [isVisible, setIsVisible] = useState(true);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const checkCookie = () => {
@@ -38,17 +40,19 @@ const DonateSection = () => {
         <button
           onClick={handleClose}
           className="absolute top-2 right-2 text-white hover:text-gray-200"
-          aria-label="Close donation section"
+          aria-label={t("donateSection.close")}
         >
           <X size={24} />
         </button>
-        <h2 className="text-3xl font-bold text-white mb-4">Help Us Do More</h2>
+        <h2 className="text-3xl font-bold text-white mb-4">
+          {t("donateSection.title")}
+        </h2>
         <p className="text-xl text-white mb-6">
-          Your donation can make a real difference in our community.
+          {t("donateSection.description")}
         </p>
         <Link to="/donate">
           <Button variant="secondary" size="lg">
-            Donate Today
+            {t("donateSection.buttonText")}
           </Button>
         </Link>
       </div>

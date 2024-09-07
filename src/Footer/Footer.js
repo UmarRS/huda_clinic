@@ -1,37 +1,32 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "../../node_modules/react-router-dom/dist/index";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
+
   return (
     <div className="flex flex-col ">
-      <meta
-        name="keywords"
-        content="Specialties: Walk In Clinic, Free Clinic, Community Health Center, Free Dental Care, Free Health Clinic, Free Dental Clinic, Community Clinic, Community Mental Health Center , Free Medical Clinic, Free Mental Health Services, No Insurance Clinic, Free Medication, Areas: Detroit MI, New Center, Tech Town, Hamtramck MI, Dearborn MI, Highland Park MI, Oak Park MI, Metro Detroit, Free Clinic Dearborn MI, Free Dental Care Hamtramck MI | Free Mental Health Services Metro Detroit"
-      />
+      <meta name="keywords" content={t("footer.meta.keywords")} />
       <main className="flex-1" />
       <footer className="bg-[#004080] text-white">
         <div className="bg-[#add8e6] py-8">
           <div className="container mx-auto flex flex-col items-center md:flex-row md:justify-between">
             <div className="text-center md:text-left">
-              <h2 className="text-2xl font-bold">Help Support Our Community</h2>
-              <p className="mt-2">
-                We couldn't do what we do without donations from people just
-                like you. Every donation, big or small, makes a real difference
-                in the lives of people in Metro-Detroit. Donate today.
-              </p>
+              <h2 className="text-2xl font-bold">{t("footer.supportTitle")}</h2>
+              <p className="mt-2">{t("footer.supportText")}</p>
             </div>
             <Link to="/donate">
               <Button className="mt-4 md:mt-0 rounded-full px-12 py-6 bg-orange-500 text-white transition duration-300 ease-in-out hover:scale-105 border-4 border-orange-300">
-                Donate
+                {t("footer.donateButton")}
               </Button>
             </Link>
           </div>
         </div>
         <div className="container mx-auto py-8 grid grid-cols-1 gap-4 md:flex md:justify-center md:items-center">
-          <Link to="/">Home</Link>
-          <Link to="/donate">Donate</Link>
-          {/* <Link to="/volunteers">Volunteer</Link> */}
-          <Link to="/contactus">Contact Us</Link>
+          <Link to="/">{t("footer.home")}</Link>
+          <Link to="/donate">{t("footer.donate")}</Link>
+          <Link to="/contactus">{t("footer.contactUs")}</Link>
         </div>
         <div className="container mx-auto py-8 flex flex-col items-center md:flex-row md:justify-center">
           <div className="flex justify-center space-x-4">
@@ -73,10 +68,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="text-center text-sm text-muted-foreground mb-4">
-          The contents of this webpage are Copyright © 2024 HUDA Free Community
-          Health Clinic.
-          <br />
-          All Rights Reserved.
+          {t("footer.copyright")}
         </div>
       </footer>
     </div>

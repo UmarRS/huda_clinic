@@ -1,0 +1,275 @@
+{
+    "welcome": "HUDA - Klinik bu digg-bu bees bi ngi jagleel Mettoro Détroit",
+    "help": "Daje ak ñi amul ag njariñ ak ñi amul njariñ bu mat Détroit",
+    "our_services": "Sunuy Liggéey",
+    "primary_care": "Njurbel gi",
+    "mental_health": "Xeetukaayu xel",
+    "dental_care": "Njurbelu gémmiñ",
+    "vision_care": "Njurbelu bët",
+    "specialty_care": "Njurbel bu xamle",
+    "new_patients": "Patient yu bees",
+    "patient_portal": "Portal biir ñaaw",
+    "contact_us": "Nuyul ñu",
+    "phone": "Télefoon",
+    "address": "Adresse",
+    "hours": "Waxtu",
+    "email": "E-mail",
+    "fax": "Fax",
+    "socials": "Jëfandikook yu réew mi",
+    "tuesday_hours": "Altine: 8:30 AM – 2:00 PM (luy mën a lekkal/waxal ak ab janngale)",
+    "wednesday_hours": "Talata: 9:00 AM – 12:00 PM (SOLO TELEMEDECINE)",
+    "thursday_hours": "Alxames: 8:30 AM – 2:00 PM (luy mën a lekkal/waxal ak ab janngale)",
+    "saturday_hours": "Gaawu: 8:30 AM – 2:00 PM (luy mën a lekkal/waxal ak ab janngale)",
+    "sunday_hours": "Dibéer: Biir tëj",
+    "clinic_phone": "+1 (313) 865-8446",
+    "clinic_address": "13240 Woodrow Wilson St., Détroit, MI 48238",
+    "clinic_fax": "+1 (313) 865-8474",
+    "clinic_email": "info@hudaclinic.org",
+    "about_us": "Ci kan la Huda Klinik",
+    "mission_statement": "Sunuy taalif ngir joxe li gën a baax ci njurbel bi nu jagleel ay way-dëkk bi.",
+    "our_story": "Sunuy cosaan",
+    "story_paragraph1": "HUDA Klinik moo am laata woon dajale sunuy mbind mii ci Mee 2004 ngir dakkal ñi amul njariñ ci dëkk ba Détroit. Klinik bi dafa tambalee ngir jëfandikoo ci xaalis yi askan wi teg ci limoo am.",
+    "story_paragraph2": "HUDA Klinik moo tambalee nga jox njurbel yu wuute fa ci kanamu Musulman Center bi ci dëkk bu Détroit. Ci kan, ba nu yéex ca kër gu yaatu ci Woodrow Wilson Street, nu wuti sunuy njurbel yu bari te sax laata togg ci njurbel gu xamle ni ci jéem ci gémmiñ, bët, piit, ak njurbelu xel. Njéem gi dafa defaral ci limu dagantaan, gën a baax ci ndimbal ak ñiy jël nu liggéey.",
+    "our_facilities": "Sunuy sàkkal",
+    "facilities_text": "Ci Huda Klinik, nu teg sunuy liggéey ci kàttan suuf bi ak njariñ gi ñu wër, ngir jox njurbel bu jëm ci sunu way-dëkk yi, ci doxalukaay yu rafet lañu wër sunuy njariñ yu wér.",
+    "chairman": "Yaramkat bi",
+    "chairman_text": "Taalif ngir wéyal: \"Ñoolal xeeti ndeysaan yi ci ndimbal gi, njàng, ak ndimbal.\" - Dr. Jukaku Tayeb, Yaramkat",
+    "proud_members": "Moom lu bare ci nekka:",
+    "discover_more": "Xoolal bu baax ci Huda Klinik",
+    "our_team": "Sunuy Ginnaawkat",
+    "our_team_description": "Xool ci sunuy xéy yu ragal yu sunuy way-dëkk yi jëfandikoo ci suufal gi.",
+    "learn_more": "Xamal bu baax",
+    "our_mission": "Sunuy Ginnaawkat",
+    "our_mission_description": "Ñangul bu baax ci ndimbal gi nu jagleel sunu way-dëkk yi.",
+    "mission_banner_title": "Sunuy ginnaawkat",
+    "mission_quote": "\"Ñoolal ñi soxla ci ndimbal, njàng, ak jox li ñuy soxla.\"",
+    "history_and_mission": "Sunuy Cosaan ak Ñaan",
+    "origins_and_expansion": "Cosaan bi ak buur bi",
+    "origins_expansion_text": "HUDA Klinik moo feeñ ci biir ndimbal bu mag ca kanamu dëkk bi ngir ñépp ñi amul njariñ nga dëkk Détroit, te ñu dox ci xaalis bi askan yi dox. Fa ci Musulman Center bi lañu tambalee, ba yéex ci kanamu kër gu yaatu ca Woodrow Wilson Street ngir ñu wuti sunuy njurbel yu yaatu te wér.",
+    "comprehensive_services": "Liggey yu dajal",
+    "comprehensive_services_text": "Klinik bu HUDA dafa tambalee ci njurbelu jigéen walla xale. Léegi ñu jox ci njurbelu gémmiñ, njurbelu bët, njurbelu xel, piit, ak njurbel yu wuute te xamle bu ni mu aju ci jàmmu way-dëkk bi. Ndimbal gi ñu defar moo aju ci ndimbal yu rafet ak dagantaan ci ñiy def nu liggéey.",
+    "mission_and_vision": "Ñaan bi ak Taxawal bi",
+    "mission_vision_text": "Sunuy taali moo am sañ-sañ bi ñi di ñoole ci ndimbal ak njàng bi, xamle bu nu jagleel ñi amul njariñ. Nu jëfandikoo sunu taxawal ngir ñool ci ñoom ñi amul njariñ ci dëkk bi te sunuy doxaloo jëfandikoo ci njurbel bi nu jagleel yi ñuy jox ñoom ci bu nooy fi nooy.",
+    "services_and_reach": "Njurbel yi nu di jox",
+    "diverse_healthcare_services": "Njurbel yu wuute yu nu jagleel",
+    "diverse_services_text": "HUDA Klinik moo jagleel njurbel gu yaatu te wuute ci njurbel bu xel, njurbelu gémmiñ, njurbelu bët ak njurbel yu wuute yu xamle, te bu nooy. Nu jagleel jéemal ci njurbel bu metti, ak way-dëkk yi ñooñu di gaawa xalaat ci ni ñuy jëmale seen njariñ ak tegu gaawa.",
+    "community_impact": "Lu réew mi xam",
+    "community_impact_text": "Ci kan, HUDA Klinik moo jagleel njurbel ci 3,500 jàngale, ñépp ñi ñoole ci ñépp ñi nekka biir réew mi ci ñooñu 1,200. Bi nu amoon sunuy sàkkan yaatu, reew mi day jëfandikoo sunuy njariñ yu nekk ñi yàgg bu baax.",
+    "access_and_affordability": "Jëfandikoo ci kéemaan ak li mu wér",
+    "access_affordability_text": "Nu dafa set ginnaaw ci yokkat yi njurbel yi jox sunuy patient yi walla njurbel bi ay yokkat buy dëf. Nu def sunuy liggéey ci xaalis yu ni mu aju ci doxaloo yu rafet yi dagantaan sunu patient yi, ngir ñu jagleel seeni njurbel ñi ñooñu sunuy yokkat am njariñ yi ñu joxe ngir ñoom.",
+    "support_and_partnerships": "Bokk yi ak njariñ",
+    "donor_support": "Bokk yi",
+    "donor_support_text": "80% ci sunuy xaalis yi nu jëfandikoo ci xaalis yu sunu yokkat yi ñooñu, yépp bu ñu jagleel ñépp ci dëkk bi ñu jagleel sunu njariñ yi ñu ñooñu liggéey.",
+    "volunteerism_and_leadership": "Bokk yi ak bésup jàng",
+    "volunteerism_leadership_text": "Ndimbal gi nu jagleel dafa am sunuy yokkat yu nu jagleel ñi dagantaan sunu njariñ yi. Sunuy yokkat yu am yaatu lañu, ñépp ñu jagleel ñi ñooñu taxawal yi ñu taxawal sunuy njariñ yi ñi néew njariñ.",
+    "community_partnerships": "Njariñu goxi réew",
+    "community_partnerships_text": "HUDA Klinik am na bokk bu rafet ak yokkat yi ci kër yu amul yokkat yu ñu jagleel ci biir gox bi. Nu jagleel sunuy patient ci yokkat yu xamle yi ñu def sunuy njariñ yi nu jagleel ñi jagleel yi ak ndimbal.",
+    "explore_services": "Xoolal sunuy liggéey",
+    "header": {
+      "title": "Njurbel yu njariñ yu ñu jagleel ci biir réew mi",
+      "description": "Ñu jox ñi ñu jagleel sunu njariñ yu nooy jëfandikoo ci sunuy yokkat yi, ci sunu njàng bi, ak ndimbal gi nu jox."
+    },
+    "ourServices": {
+      "title": "Sunuy njurbel",
+      "description": "Xool ci sunuy njurbel yu wuute yi ñu jagleel sunuy way-dëkk yi ñuy jéem njariñ yi ñu defar.",
+      "findCareTitle": "Seet ci njurbel bi nga soxla",
+      "findCareDescription": "Sunuy njurbel yu nekk lañuy jëfandikoo ngir ñu jagleel sunu way-dëkk yi, te sunuy njariñ lañu jagleel. Xool ci seeni njariñ ak li nga xam ne sunu yokkat gi nga jagleel taxawal fi!"
+    },
+    "serviceCards": {
+      "primaryCare": {
+        "title": "Njurbelu njurbel gu dëgg",
+        "description": "Njurbelu njurbel gu dëgg day taxawal sunu njariñ bu nekk ngir ñu jagleel njariñ yi, ak njàng yi, yokkat yi ñu jagleel ak ci doxal yi ñuy jëfandikoo ngir ñu jagleel seeni njariñ bu nekk. Nu jëfandikoo li ñu jagleel njurbel bi ñi jagleel ñi amul yokkat ak ñi jagleel ñi néew njariñ bu nekk.",
+        "servicesTitle": "Sunuy njurbelu njurbelu dëgg:",
+        "services": [
+          "Jéemal njariñ",
+          "Taxawal fi njariñ yi bu metti ak bu ragal",
+          "Liggéeyu labooratoor (luy xam ci der bi)",
+          "Pharmasi bu toll ci yokkat yi",
+          "Xamle ci jàngal ci gaaw ci xeetu njariñ yi",
+          "Jàng bi",
+          "Jànglu njariñ ak njariñ yu wuute"
+        ]
+      },
+      "dentalCare": {
+        "title": "Njurbelu njurbelu gémmiñ",
+        "description": "Ñi jagleel njurbel gi ñu jagleel ñaari xare. ñuy jagleel njurbel yi ñu jagleel fi bu nu jagleel.",
+        "servicesTitle": "Sunuy njurbelu njurbelu gémmiñ:",
+        "services": [
+          "Jéemal gémmiñ gi ak yàkk bi",
+          "Jubale bi",
+          "Dunde gu ciir la ci gémmiñ",
+          "Ciiru njurbel gu nekk ci li ñuy jox seeni yokkat"
+        ]
+      },
+      "mentalHealth": {
+        "title": "Xeetukaayu xel",
+        "description": "Ñuy jëfandikoo sunuy yokkat yi ci xel bu metti, bi nga xam ne yi ñi jagleel fi bu gaaw lañu. Ñi ñu jagleel ci metti ak njariñ yi nga jëfandikoo ci réew mi fi nu am njurbelu dëgg bu wér ci njurbel yi jagleel ñu jagleel.",
+        "servicesTitle": "Sunuy xeetu njurbelu xel:",
+        "services": [
+          "Xeetukaayu xel ci njurbel bu nekk ci réew mi",
+          "Ñoom bu nekk ci njurbel bu nekk",
+          "ñu jagleel ci njurbel",
+          "Trastornu bu ci njurbel",
+          "Ñu jagleel fi xeetukaay bu gaaw"
+        ]
+      },
+      "visionCare": {
+        "title": "Njurbelu njurbelu bët",
+        "description": "Njariñu bët day jéemal gaawa ci njurbel yi jagleel ñi xam ne gaawa ci njurbel yi jagleel ñi jagleel fi sunuy yokkat yi jagleel.",
+        "servicesTitle": "Sunuy njurbelu njurbelu bët:",
+        "services": [
+          "Xamle ci ñu jagleel ci njurbel yi gaaw",
+          "Njariñu njurbel yi jagleel seeni yokkat",
+          "Njariñu njurbel yi ñu jagleel seeni yokkat ci njurbel",
+          "Bët gu toll ci ñu jagleel sunu yokkat",
+          "ñu jagleel sunu njurbel"
+        ]
+      },
+      "specialtyCare": {
+        "title": "Njurbel bu xamle",
+        "description": "Ñu jagleel ci sunuy yokkat yi ci njurbel yi jagleel seeni yokkat ci njurbel yi ñu jagleel ci njurbel yi ñu jagleel sunuy yokkat.",
+        "servicesTitle": "Sunuy njurbelu njurbelu xamle:",
+        "services": [
+          "Jangale ci njurbel yi",
+          "Xeetu njurbelu njurbelu bu nekk",
+          "Ñu jagleel fi bu nekk njurbelu dëgg",
+          "Ñu jagleel ci njurbel yi jagleel sunu yokkat"
+        ]
+      }
+    },
+    "newPatientInfo": {
+      "title": "Jëfandikoo sunu yokkat yi",
+      "description1": "Ñi ñu jagleel sunuy yokkat yi ñi jagleel sunuy yokkat yi, ñoo jagleel seeni yokkat ak seeni patient yi jagleel ñi jagleel.",
+      "description2": "Njariñ yi ñu jagleel sunuy yokkat yi jagleel seeni yokkat, ñu jagleel fi sunuy yokkat.",
+      "hoursTitle": "Waxtu:",
+      "hours": [
+        "Altine: 8:30 AM – 2:00 PM (njariñu njurbel gi)",
+        "Talata: 9:00 AM – 12:00 PM (njurbel gi)",
+        "Alxames: 8:30 AM – 2:00 PM (njurbel gi)",
+        "Gaawu: 8:30 AM – 2:00 PM (njurbel gi)"
+      ]
+    },
+    "healthservices_moreinfo": "Xool njurbel yi",
+    "donate_header": {
+      "title": "Joxe ci njurbel gi",
+      "description": "Ndimbal ak njurbel yi ñu jagleel sunu yokkat"
+    },
+    "donate_options": {
+      "clinic": {
+        "title": "Joxe sunuy yokkat",
+        "description": "Sunuy yokkat yi ñoo jagleel sunuy yokkat, ñi jagleel njurbel yi jagleel ñu jagleel.",
+        "buttonText": "Joxe sunu njurbel"
+      },
+      "garden": {
+        "title": "Joxe sunuy yokkat",
+        "description": "Joxe sunuy yokkat ci njurbel yi jagleel seeni yokkat fi sunuy yokkat yi jagleel njurbel yi ñu jagleel ñi jagleel."
+      }
+    },
+    "newsletter_header": {
+      "title": "Bokk ci njurbel gi",
+      "description": "Xool njurbel gi ñu jagleel ñi jagleel seeni yokkat!"
+    },
+    "newsletter_form": {
+      "loading": "Jéem fi…"
+    },
+    "newPatient_header": {
+      "title": "Jëfandikoo sunuy yokkat",
+      "description": "Jëfandikoo sunuy yokkat fi njurbel yi ñi jagleel sunuy yokkat."
+    },
+    "newPatient_form": {
+      "firstName": "Tur bu jëkkoon",
+      "lastName": "Tur bu mujj",
+      "dob": "Fan wi mu judd",
+      "department": "Njurbel",
+      "email": "Email",
+      "mobilePhone": "Njurbelu telephon",
+      "workPhone": "Njurbelu biir yokkat",
+      "address": "Adres",
+      "zipCode": "Code postal",
+      "familySize": "Ñu jagleel njurbelu suuf",
+      "incomeLevel": "Njariñu njurbel yi ñu jagleel",
+      "veteranStatus": "Way-dëkk yi ñu jagleel njurbel yi",
+      "employmentStatus": "Njariñu njurbel",
+      "preferredLanguage": "Xaléyi njurbel",
+      "raceEthnicity": "Xeet yi ñu jagleel njurbel",
+      "signUpButton": "Bokk ci njurbel",
+      "selectPlaceholder": "Tabbi"
+    },
+    "newPatient_options": {
+      "departments": {
+        "familyMedicine": "Njurbelu njurbelu way-dëkk",
+        "internalMedicine": "Njurbelu ci suufal",
+        "pediatrics": "Njariñu xaléyi njurbel",
+        "obstetricsGynecology": "Njurbelu jigéen ak xel",
+        "surgery": "Xeetu njurbel",
+        "other": "Ñu jagleel njurbel"
+      },
+      "incomeLevels": {
+        "under25k": "Lu ëpp ci 25,000",
+        "25k50k": "Lu ëpp ci 25,000 - 50,000",
+        "50k75k": "Lu ëpp ci 50,000 - 75,000",
+        "75k100k": "Lu ëpp ci 75,000 - 100,000",
+        "over100k": "Lu ëpp ci 100,000"
+      },
+      "veteranStatus": {
+        "yes": "Waaw",
+        "no": "Déedéet"
+      },
+      "employmentStatuses": {
+        "employed": "Bu am yokkat",
+        "unemployed": "Bu yokkat",
+        "retired": "Jekkal ci yokkat",
+        "student": "Xalé ci yokkat",
+        "other": "Njurbel yi jagleel"
+      },
+      "languages": {
+        "english": "Wolof",
+        "spanish": "Español",
+        "mandarin": "Mandarin",
+        "arabic": "Aarabik",
+        "other": "Xaraf"
+      },
+      "raceEthnicity": {
+        "white": "Xeet bu weex",
+        "black": "Xeet bu ñuul",
+        "hispanic": "Xeet bu ñu jagleel njurbel",
+        "asian": "Xeet bu ñu jagleel ci njurbel",
+        "nativeAmerican": "Xeet bu ñu jagleel ci njurbel",
+        "pacificIslander": "Xeet bu ñu jagleel njurbel yi ñu jagleel ci",
+        "other": "Njariñu njurbel"
+      }
+    },
+    "notFound": {
+      "title": "404 - Xaléyi njurbel yi jagleel",
+      "description": "Njurbelu njurbel gi fi mu nekk",
+      "goHome": "Njurbel biir fi jagleel njurbel"
+    },
+    "donateSection": {
+      "title": "Jëfandikoo sunuy yokkat",
+      "description": "Jëfandikoo sunuy yokkat ak sunuy njariñ yi jagleel njurbel."
+    },
+    "navbar": {
+      "about": {
+        "title": "Jëfandikoo ci njurbel",
+        "subtitle": "Njariñu njurbel",
+        "ourHistory": "Njariñu suufal",
+        "ourTeam": "Njariñu yokkat",
+        "ourMission": "Njariñu yokkat"
+      },
+      "our": "Njariñu",
+      "services": "Njariñu njurbel",
+      "newsletter": {
+        "join": "Jëfandikoo",
+        "newsletter": "ci njurbel"
+      },
+      "contactUs": {
+        "contact": "Njurbel",
+        "us": "nu"
+      },
+      "donate": "Joxe njurbel",
+      "patientPortal": "Portal njurbel",
+      "newPatients": "Njurbelu njurbel",
+      "giveToClinic": "Sunuy njurbel"
+    }
+  }
+  

@@ -1,15 +1,5 @@
 import { Button } from "@/components/ui/button";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
-import { Link } from "react-router-dom";
-import { ChevronDownIcon, ChevronDown, ChevronRightIcon } from "lucide-react";
-import HUDA_LOGO from "../logo.png";
+import { useTranslation } from "react-i18next";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -20,18 +10,16 @@ import {
   Sheet,
   SheetClose,
   SheetContent,
-  SheetFooter,
-  SheetHeader,
-  SheetOverlay,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { MenuIcon } from "lucide-react";
+import { Link } from "react-router-dom";
+import { ChevronDownIcon, CircleUser, MoveRight, MenuIcon } from "lucide-react";
+import HUDA_LOGO from "../logo.png";
 import { Separator } from "@/components/ui/separator";
-import { CircleUser } from "lucide-react";
-import { MoveRight } from "lucide-react";
 
 function NavigationButtons() {
+  const { t } = useTranslation();
+
   return (
     <header className="w-full bg-white dark:bg-gray-900 mt-5">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6 mb-5">
@@ -41,12 +29,11 @@ function NavigationButtons() {
           </Link>
 
           <div className="hidden items-start space-x-4 md:flex gap-10">
-            {/* Dropdown Menu and Links (same as before) */}
             <DropdownMenu>
               <DropdownMenuTrigger className="flex items-stretch gap-1 text-gray-900 flex-grow hover:text-blue-600 relative group">
                 <div className="flex flex-col items-start">
-                  <span>About</span>
-                  <span>Huda Clinic</span>
+                  <span>{t("navbar.about.title")}</span>
+                  <span>{t("navbar.about.subtitle")}</span>
                   <Separator className="hidden group-hover:block bg-gray-200 group-hover:bg-blue-600 h-px" />
                 </div>
                 <ChevronDownIcon className="self-end mt-auto" />
@@ -54,17 +41,17 @@ function NavigationButtons() {
               <DropdownMenuContent>
                 <DropdownMenuItem>
                   <Link to="/ourstory" prefetch={false}>
-                    Our History
+                    {t("navbar.about.ourHistory")}
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Link to="/ourteam" prefetch={false}>
-                    Our Team
+                    {t("navbar.about.ourTeam")}
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Link to="/ourmission" prefetch={false}>
-                    Our Mission
+                    {t("navbar.about.ourMission")}
                   </Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>
@@ -75,8 +62,9 @@ function NavigationButtons() {
               prefetch={false}
             >
               <div className="flex flex-col items-start">
-                <span>Our</span>
-                <span>Services</span>
+                <span>{t("navbar.our")}</span>
+                <span>{t("navbar.services")}</span>
+
                 <Separator className="hidden group-hover:block bg-gray-200 group-hover:bg-blue-600 h-px" />
               </div>
             </Link>
@@ -87,8 +75,8 @@ function NavigationButtons() {
               prefetch={false}
             >
               <div className="flex flex-col items-start">
-                <span>Join Our</span>
-                <span>Newsletter</span>
+                <span>{t("navbar.newsletter.join")}</span>
+                <span>{t("navbar.newsletter.newsletter")}</span>
                 <Separator className="hidden group-hover:block bg-gray-200 group-hover:bg-blue-600 h-px" />
               </div>
             </Link>
@@ -98,8 +86,8 @@ function NavigationButtons() {
               prefetch={false}
             >
               <div className="flex flex-col items-start">
-                <span>Contact</span>
-                <span>Us</span>
+                <span>{t("navbar.contactUs.contact")}</span>
+                <span>{t("navbar.contactUs.us")}</span>
                 <Separator className="hidden group-hover:block bg-gray-200 group-hover:bg-blue-600 h-px" />
               </div>
             </Link>
@@ -109,23 +97,21 @@ function NavigationButtons() {
               prefetch={false}
             >
               <div className="flex flex-col items-start">
-                <span>Donate</span>
+                <span>{t("navbar.donate")}</span>
                 <Separator className="hidden group-hover:block bg-gray-200 group-hover:bg-blue-600 h-px" />
               </div>
             </Link>
           </div>
         </div>
 
-        {/* Add the donate button here for small screens */}
-
         <div className="hidden items-center space-x-4 md:flex">
           <a
-            href="https://myidentity.platform.athenahealth.com/oauth2/auset0ja9xZ2Hniep296/v1/authorize?client_id=0oa5jhhy36lw4YE6S297&code_challenge=73_ufOHvXzZpHSjCP2l8iqfMYO0x8SAogE2TBe6FZgo&code_challenge_method=S256&nonce=JoQ1tNE3NstCrsOY7zGCF2PcuvcyjJQzgCdTKOg0pqLuUTFtQ3glXOcG9idrySEZ&redirect_uri=https%3A%2F%2Fpxppapp.px.athena.io%2Flogin&response_type=code&state=t6SZvaYCIeYZco1d3LnRFkDqz7eG8TziAunvSMUIb2X7zoGukj3jsAowauJjQlk2&scope=openid%20email%20communicator.external_accounts.read"
+            href="https://myidentity.platform.athenahealth.com/oauth2/auset0ja9xZ2Hniep296/v1/authorize?client_id=0oa5jhhy36lw4YE6S297&code_challenge=hTrrUBbWg2hLCdDO_YJgoF5Fe1l_jWLWho1hfMqdhgQ&code_challenge_method=S256&nonce=wCxdlkTCdLDcjn8UlnAinNshGyZbiyBM2n88jgEl2ccRd6z6za3ieIFMRpxpJW8s&redirect_uri=https%3A%2F%2Fpxppapp.px.athena.io%2Flogin&response_type=code&state=1fKQ39lghHEoQ2ibzuuFUfJ6yZqht7iYuYaIcbQUW0rFClIRad8zlSBCuBSMGpt6&scope=openid%20email%20communicator.external_accounts.read"
             target="_blank"
             className="text-gray-900 flex-grow hover:text-blue-600 relative group"
             prefetch={false}
           >
-            Patient Portal
+            {t("navbar.patientPortal")}
           </a>
           <Link
             to="/newpatient"
@@ -133,11 +119,11 @@ function NavigationButtons() {
             prefetch={false}
           >
             <CircleUser className="mr-1" />
-            New Patients
+            {t("navbar.newPatients")}
           </Link>
         </div>
 
-        {/* for small screens */}
+        {/* Small screen navigation */}
         <div className="md:hidden">
           <Sheet className="text-left justify-left w-full h-[calc(100vh-4rem)]">
             <SheetTrigger asChild>
@@ -148,7 +134,6 @@ function NavigationButtons() {
             </SheetTrigger>
             <SheetContent side="top" className="bg-white h-[100vh]">
               <div className="grid p-4">
-                {/* Same menu items as before */}
                 <SheetClose asChild>
                   <Link
                     to="/ourstory"
@@ -158,7 +143,7 @@ function NavigationButtons() {
                       className="bg-white text-2xl text-black w-full text-left justify-start hover:bg-blue-100"
                       type="submit"
                     >
-                      Our Story
+                      {t("navbar.about.ourHistory")}
                     </Button>
                   </Link>
                 </SheetClose>
@@ -171,7 +156,7 @@ function NavigationButtons() {
                       className="bg-white text-2xl text-black w-full text-left justify-start hover:bg-blue-100"
                       type="submit"
                     >
-                      Our Team
+                      {t("navbar.about.ourTeam")}
                     </Button>
                   </Link>
                 </SheetClose>
@@ -184,7 +169,7 @@ function NavigationButtons() {
                       className="bg-white text-2xl text-black w-full text-left justify-start hover:bg-blue-100"
                       type="submit"
                     >
-                      Our Mission
+                      {t("navbar.about.ourMission")}
                     </Button>
                   </Link>
                 </SheetClose>
@@ -198,7 +183,7 @@ function NavigationButtons() {
                       className="bg-white text-2xl text-black w-full text-left justify-start hover:bg-blue-100"
                       type="submit"
                     >
-                      Our Services
+                      {t("navbar.ourServices")}
                     </Button>
                   </SheetClose>
                 </Link>
@@ -212,7 +197,7 @@ function NavigationButtons() {
                       className="bg-white text-2xl text-black justify-start w-full text-left hover:bg-blue-100"
                       type="submit"
                     >
-                      Give to Clinic
+                      {t("navbar.giveToClinic")}
                     </Button>
                   </SheetClose>
                 </Link>
@@ -226,19 +211,19 @@ function NavigationButtons() {
                       className="bg-white text-2xl text-black justify-start w-full text-left hover:bg-blue-100"
                       type="submit"
                     >
-                      Join Our Newsletter
+                      {t("navbar.newsletter.newsletter")}
                     </Button>
                   </SheetClose>
                 </Link>
 
                 <SheetClose asChild>
                   <Button
-                    href="https://myidentity.platform.athenahealth.com/oauth2/auset0ja9xZ2Hniep296/v1/authorize?client_id=0oa5jhhy36lw4YE6S297&code_challenge=73_ufOHvXzZpHSjCP2l8iqfMYO0x8SAogE2TBe6FZgo&code_challenge_method=S256&nonce=JoQ1tNE3NstCrsOY7zGCF2PcuvcyjJQzgCdTKOg0pqLuUTFtQ3glXOcG9idrySEZ&redirect_uri=https%3A%2F%2Fpxppapp.px.athena.io%2Flogin&response_type=code&state=t6SZvaYCIeYZco1d3LnRFkDqz7eG8TziAunvSMUIb2X7zoGukj3jsAowauJjQlk2&scope=openid%20email%20communicator.external_accounts.read"
+                    href="https://myidentity.platform.athenahealth.com/oauth2/auset0ja9xZ2Hniep296/v1/authorize?..."
                     target="_blank"
                     className="bg-white text-2xl text-black w-full text-left hover:bg-blue-100 justify-start"
                     type="submit"
                   >
-                    Patient Portal
+                    {t("navbar.patientPortal")}
                     <MoveRight className="ml-2" />
                   </Button>
                 </SheetClose>
@@ -250,7 +235,7 @@ function NavigationButtons() {
                       type="submit"
                     >
                       <CircleUser className="mr-1" />
-                      New Patients
+                      {t("navbar.newPatients")}
                       <MoveRight className="ml-2" />
                     </Button>
                   </div>
