@@ -108,25 +108,15 @@ function NavigationButtons() {
               className="flex-grow relative group"
               prefetch={false}
             >
-              <Button className=" text-xl rounded-full px-12 py-6 bg-orange-500 text-white transition duration-300 ease-in-out hover:scale-105 border-4 border-orange-300">
-                Donate
-              </Button>
+              <div className="flex flex-col items-start">
+                <span>Donate</span>
+                <Separator className="hidden group-hover:block bg-gray-200 group-hover:bg-blue-600 h-px" />
+              </div>
             </Link>
           </div>
         </div>
 
         {/* Add the donate button here for small screens */}
-        <div className="flex md:hidden">
-          <Link
-            to="/donate"
-            className="flex-grow relative group"
-            prefetch={false}
-          >
-            <Button className=" text-xl rounded-full px-12 py-6 bg-[#add8e6] text-white transition duration-300 ease-in-out hover:scale-105 border-4 border-[#0e4457]">
-              Donate
-            </Button>
-          </Link>
-        </div>
 
         <div className="hidden items-center space-x-4 md:flex">
           <a

@@ -17,31 +17,27 @@ import OurMission from "About_Us/ourMission";
 
 import NewPatient from "Patient/NewPatient";
 import NotFound from "404_NotFound/NotFound";
+import DonateSection from "Donate/Donate_Section";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex flex-col min-h-screen">
+      <DonateSection />
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        {/* ABOUT */}
-        <Route path="/contactus" element={<ContactUs />} />
-        <Route path="/ourstory" element={<OurStory />} />
-        <Route path="/ourmission" element={<OurMission />} />
-
-        <Route path="/ourteam" element={<Partners />} />
-        {/* <Route path="/volunteers" element={<Volunteers />} /> */}
-        {/* HEALTH SERVICES */}
-        <Route path="/healthservices" element={<HealthServices />} />
-        {/* DONATE */}
-        <Route path="/donate" element={<Donate />} />
-        {/* NEWSLETTER */}
-        <Route path="/newsletter" element={<Newsletter />} />
-        {/* PATIENT PORTAL */}
-        <Route path="/newpatient" element={<NewPatient />} />
-        {/* Catch-all route for 404 Not Found */}
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+      <main className="flex-grow">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/ourstory" element={<OurStory />} />
+          <Route path="/ourmission" element={<OurMission />} />
+          <Route path="/ourteam" element={<Partners />} />
+          <Route path="/healthservices" element={<HealthServices />} />
+          <Route path="/donate" element={<Donate />} />
+          <Route path="/newsletter" element={<Newsletter />} />
+          <Route path="/newpatient" element={<NewPatient />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </main>
       <Footer />
     </div>
   );
