@@ -113,14 +113,14 @@ function NavigationButtons() {
           >
             {t("navbar.patientPortal")}
           </a>
-          <Link
+          {/* <Link
             to="/newpatient"
             className="inline-flex h-9 items-center flex-grow hover:text-blue-600 relative group"
             prefetch={false}
           >
             <CircleUser className="mr-1" />
             {t("navbar.newPatients")}
-          </Link>
+          </Link> */}
         </div>
 
         {/* Small screen navigation */}
@@ -183,7 +183,7 @@ function NavigationButtons() {
                       className="bg-white text-2xl text-black w-full text-left justify-start hover:bg-blue-100"
                       type="submit"
                     >
-                      {t("navbar.ourServices")}
+                      {t("navbar.about.ourServices")}
                     </Button>
                   </SheetClose>
                 </Link>
@@ -227,7 +227,7 @@ function NavigationButtons() {
                     <MoveRight className="ml-2" />
                   </Button>
                 </SheetClose>
-                <SheetClose>
+                {/* <SheetClose>
                   <div className="bg-white text-2xl text-black w-full text-left hover:bg-blue-100 justify-start">
                     <Button
                       target="_blank"
@@ -239,7 +239,7 @@ function NavigationButtons() {
                       <MoveRight className="ml-2" />
                     </Button>
                   </div>
-                </SheetClose>
+                </SheetClose> */}
               </div>
             </SheetContent>
           </Sheet>

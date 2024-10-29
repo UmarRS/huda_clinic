@@ -56,7 +56,7 @@ function App() {
           <Route path="/healthservices" element={<HealthServices />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/newsletter" element={<Newsletter />} />
-          <Route path="/newpatient" element={<NewPatient />} />
+          {/* <Route path="/newpatient" element={<NewPatient />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
 
